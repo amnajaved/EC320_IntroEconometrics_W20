@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.4)  10 JAN 2020 10:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.4)  20 JAN 2020 08:44
 entering extended mode
 **./ProblemSet1.tex
 (ProblemSet1.tex
@@ -525,7 +525,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
  7058 strings out of 492973
- 103938 string characters out of 3126693
+ 104142 string characters out of 3126693
  204309 words of memory out of 3000000
  10808 multiletter control sequences out of 15000+200000
  9110 words of font info for 35 fonts, out of 3000000 for 9000
@@ -541,7 +541,7 @@ cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amnaj
 :/Users/amnaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><C:/Users/amnaj/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb>
-Output written on ProblemSet1.pdf (5 pages, 124867 bytes).
+Output written on ProblemSet1.pdf (5 pages, 124747 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
