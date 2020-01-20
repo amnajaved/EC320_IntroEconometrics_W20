@@ -1,0 +1,4871 @@
+black,female,call,educ,num_jobs,exper,comp_skill
+0,1,0,College or Higher,2,6,1
+0,1,0,Some College,3,6,1
+1,1,0,College or Higher,1,6,1
+1,1,0,Some College,4,6,1
+0,1,0,Some College,3,22,1
+0,0,0,College or Higher,2,6,0
+0,1,0,College or Higher,2,5,1
+1,1,0,Some College,4,21,1
+1,1,0,College or Higher,3,3,1
+1,0,0,College or Higher,2,6,0
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,2,4,1
+1,1,0,College or Higher,2,5,0
+0,0,0,HS Dropout,3,4,1
+0,0,0,College or Higher,3,5,0
+1,1,0,College or Higher,3,6,0
+0,1,0,College or Higher,2,6,0
+1,1,0,HS Graduate,2,8,0
+1,0,0,College or Higher,3,4,1
+0,0,0,College or Higher,3,3,1
+0,1,0,HS Graduate,2,2,0
+0,1,0,College or Higher,3,7,1
+0,0,0,College or Higher,3,3,1
+1,1,0,College or Higher,4,6,1
+1,1,0,HS Dropout,3,4,1
+0,1,0,Some College,4,6,1
+1,1,0,Some College,3,7,1
+1,1,0,College or Higher,3,2,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,Some College,4,6,1
+0,1,0,Some College,2,9,1
+1,1,0,College or Higher,3,6,1
+0,0,0,HS Graduate,2,4,0
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,3,3,0
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,2,5,1
+1,0,0,College or Higher,3,5,0
+0,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,2,7,1
+0,0,0,Not Reported,2,4,1
+1,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,2,19,1
+0,0,0,HS Graduate,3,5,0
+1,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,4,21,1
+1,0,0,HS Graduate,3,5,0
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,5,1
+0,1,0,Not Reported,2,5,1
+0,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,3,6,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,5,1
+0,0,0,College or Higher,2,5,0
+1,0,0,HS Dropout,3,5,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,2,5,0
+0,1,0,Some College,3,3,1
+1,0,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,12,1
+1,1,0,Some College,3,11,1
+1,1,0,College or Higher,2,9,1
+0,1,0,College or Higher,3,10,1
+1,0,0,College or Higher,4,5,1
+0,0,0,College or Higher,4,4,1
+0,0,0,College or Higher,2,4,1
+1,0,0,College or Higher,5,3,1
+1,0,0,HS Graduate,3,4,0
+0,0,1,HS Graduate,3,7,1
+0,0,0,HS Dropout,3,3,1
+1,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,4,0
+0,0,0,College or Higher,3,4,1
+1,1,0,College or Higher,6,4,1
+1,0,0,College or Higher,3,2,1
+1,1,0,College or Higher,4,10,1
+0,0,1,HS Graduate,3,4,0
+1,0,0,HS Graduate,3,5,0
+0,1,0,College or Higher,5,11,1
+1,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,7,1
+1,0,0,College or Higher,3,4,0
+0,0,0,College or Higher,3,4,0
+0,1,0,College or Higher,4,4,1
+0,1,1,College or Higher,2,6,0
+1,1,0,College or Higher,5,6,1
+1,1,1,College or Higher,3,6,0
+1,1,0,College or Higher,3,6,0
+0,1,0,College or Higher,2,6,0
+0,0,0,College or Higher,2,6,0
+1,1,0,College or Higher,2,4,0
+0,1,0,HS Graduate,3,23,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,4,5,1
+1,1,0,Some College,3,5,1
+1,1,0,Some College,4,5,1
+0,1,0,HS Graduate,3,1,0
+1,1,0,College or Higher,2,5,0
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,4,8,1
+1,1,0,HS Graduate,3,4,0
+1,1,0,College or Higher,4,9,1
+1,1,1,College or Higher,1,9,1
+0,0,1,Some College,2,5,0
+1,1,0,College or Higher,3,6,0
+0,1,0,Some College,3,8,1
+0,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,3,9,1
+0,0,0,College or Higher,3,5,0
+1,1,0,College or Higher,3,10,1
+0,1,0,College or Higher,4,8,1
+0,0,0,HS Graduate,3,6,1
+1,1,0,College or Higher,4,5,1
+1,0,0,HS Graduate,3,4,0
+1,1,0,Some College,4,6,1
+0,1,0,Some College,3,4,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,Not Reported,2,4,1
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,3,4,0
+1,0,0,HS Graduate,3,6,0
+0,1,0,HS Graduate,3,4,0
+0,1,0,HS Graduate,3,7,1
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,2,7,1
+1,1,0,Some College,4,8,1
+0,0,0,College or Higher,5,6,1
+1,0,0,College or Higher,3,9,1
+0,1,0,Some College,2,12,1
+1,1,0,HS Graduate,2,6,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,3,14,0
+0,1,0,College or Higher,5,12,1
+1,1,0,College or Higher,5,7,1
+1,0,0,Some College,2,3,0
+0,1,0,HS Graduate,3,1,0
+1,1,0,College or Higher,2,5,1
+0,1,0,College or Higher,4,21,1
+0,1,0,College or Higher,3,2,1
+0,1,0,College or Higher,4,7,1
+0,0,1,College or Higher,5,10,1
+1,0,0,College or Higher,5,10,0
+1,1,0,Some College,2,7,1
+0,0,1,College or Higher,2,6,1
+0,1,0,College or Higher,3,6,1
+1,1,0,HS Graduate,2,6,1
+1,1,1,Some College,3,11,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,3,7,0
+0,0,0,HS Graduate,3,8,0
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,6,18,1
+0,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,10,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,14,1
+0,1,0,College or Higher,5,26,0
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,6,8,1
+1,0,0,HS Dropout,3,10,0
+1,1,1,College or Higher,4,8,1
+0,1,1,College or Higher,4,8,1
+0,1,0,Some College,4,9,1
+1,1,0,Some College,3,9,1
+0,1,0,College or Higher,3,12,1
+1,1,0,College or Higher,4,15,1
+0,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,4,11,1
+1,1,0,Some College,3,3,1
+0,1,0,HS Graduate,2,6,1
+0,1,1,College or Higher,3,4,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,3,4,1
+0,1,0,HS Graduate,2,6,1
+0,1,0,Some College,3,7,0
+0,0,0,College or Higher,3,3,1
+1,1,0,College or Higher,3,3,1
+1,0,0,HS Dropout,3,4,1
+1,1,0,HS Graduate,3,4,0
+0,0,0,HS Graduate,3,7,0
+0,1,0,College or Higher,5,11,1
+0,1,0,College or Higher,2,10,1
+1,1,0,College or Higher,1,12,1
+1,1,0,College or Higher,3,10,1
+1,1,0,College or Higher,3,5,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,4,5,1
+0,1,0,Some College,2,4,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,2,25,1
+1,1,0,College or Higher,4,21,1
+0,1,0,College or Higher,3,6,1
+0,1,0,Some College,4,6,1
+1,1,0,Some College,4,4,1
+1,1,0,Some College,3,5,1
+1,1,0,Some College,4,9,1
+0,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,1,5,1
+1,1,0,College or Higher,5,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,4,7,0
+1,1,0,College or Higher,3,9,0
+0,1,0,College or Higher,3,7,1
+0,1,0,Some College,4,9,1
+0,1,1,College or Higher,3,10,1
+1,1,0,College or Higher,2,9,1
+1,1,0,Some College,3,10,1
+0,1,0,College or Higher,4,16,1
+1,1,0,College or Higher,5,12,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,13,1
+1,1,0,Some College,5,4,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,6,4,1
+0,0,0,College or Higher,5,12,1
+1,0,1,College or Higher,4,3,1
+0,1,0,Some College,3,6,1
+1,0,0,College or Higher,6,4,1
+0,0,0,College or Higher,4,7,1
+1,0,0,College or Higher,2,5,1
+0,0,0,College or Higher,2,6,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,6,1
+0,1,1,College or Higher,2,4,0
+1,0,0,College or Higher,3,4,0
+1,0,1,College or Higher,5,11,1
+0,1,1,College or Higher,4,6,1
+1,1,1,College or Higher,5,6,1
+0,1,1,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,3,4,0
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,5,8,1
+0,1,0,Not Reported,2,4,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,4,7,0
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,6,0
+1,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,9,1
+0,1,0,College or Higher,2,15,1
+0,1,0,College or Higher,4,12,1
+1,1,0,College or Higher,3,6,0
+0,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,2,6,0
+0,1,0,College or Higher,6,7,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,5,1
+0,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,6,7,1
+0,1,0,HS Graduate,3,3,1
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,4,1
+1,1,0,Some College,3,6,1
+0,0,0,College or Higher,3,3,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,2,1
+0,1,0,College or Higher,3,4,1
+1,1,0,Some College,4,21,1
+0,1,0,College or Higher,2,5,1
+0,1,0,College or Higher,2,5,1
+1,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,5,1
+1,0,0,College or Higher,3,5,0
+0,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,Some College,3,6,1
+1,1,0,Some College,3,3,1
+0,1,0,Some College,3,16,1
+1,1,0,Some College,3,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,2,5,0
+1,1,0,Some College,4,2,1
+1,0,0,HS Graduate,3,5,0
+0,0,0,HS Graduate,3,4,0
+1,1,0,HS Graduate,3,6,1
+0,1,0,Some College,3,5,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,Some College,3,4,1
+1,1,0,Some College,4,6,1
+0,1,0,Some College,4,6,1
+1,1,0,HS Graduate,2,4,1
+1,1,0,Some College,3,4,1
+0,1,0,HS Graduate,3,4,0
+0,1,0,Some College,3,4,1
+1,0,0,HS Graduate,3,6,1
+0,1,0,College or Higher,1,12,1
+0,1,0,Some College,3,16,1
+1,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,2,15,1
+0,1,0,HS Graduate,3,1,0
+1,0,0,College or Higher,1,11,1
+0,0,1,College or Higher,1,1,1
+1,1,0,Some College,2,3,1
+0,1,0,Some College,3,8,1
+0,1,0,College or Higher,5,6,1
+1,1,0,College or Higher,2,8,0
+1,0,0,Some College,2,5,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,5,8,1
+1,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,0
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,8,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,10,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,College or Higher,6,7,0
+1,1,0,College or Higher,1,5,1
+0,1,0,Some College,5,4,1
+0,1,1,College or Higher,7,5,1
+1,0,1,College or Higher,3,13,1
+0,0,0,College or Higher,5,8,0
+1,0,0,College or Higher,4,20,0
+0,1,0,College or Higher,5,8,0
+1,1,0,College or Higher,7,5,1
+0,0,1,College or Higher,4,20,0
+1,1,0,College or Higher,3,13,1
+0,1,0,Some College,2,2,1
+1,1,0,College or Higher,5,14,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,2,1,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,2,2,0
+0,1,0,College or Higher,2,4,1
+1,1,0,Some College,2,1,1
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,3,8,1
+0,1,0,College or Higher,5,9,1
+1,1,0,Some College,3,4,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,6,7,0
+0,1,0,Some College,5,26,1
+1,1,0,Some College,6,16,1
+1,0,0,College or Higher,7,5,1
+0,1,1,College or Higher,4,20,0
+0,0,0,College or Higher,5,8,0
+1,1,0,College or Higher,3,13,1
+1,1,0,College or Higher,3,8,1
+0,1,0,Some College,5,5,0
+0,1,0,HS Graduate,4,18,0
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,1,0,Some College,5,5,0
+0,1,0,College or Higher,5,14,1
+1,1,1,College or Higher,4,11,1
+1,1,1,College or Higher,6,9,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+0,1,0,Some College,5,13,1
+0,1,0,College or Higher,1,5,1
+1,1,0,College or Higher,6,7,0
+1,1,0,Some College,6,16,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+0,1,0,HS Dropout,3,10,0
+1,1,0,College or Higher,4,10,1
+0,0,1,College or Higher,2,6,1
+1,1,0,HS Graduate,3,8,0
+1,1,0,Some College,4,5,1
+0,1,0,Some College,2,7,1
+1,1,0,College or Higher,4,6,1
+0,1,1,College or Higher,4,11,1
+0,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,11,1
+1,1,0,HS Graduate,2,6,1
+1,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,7,1
+1,1,0,Some College,4,7,1
+0,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,21,1
+0,1,0,College or Higher,2,19,1
+1,1,0,Some College,3,23,1
+1,1,0,College or Higher,3,9,1
+0,1,0,Some College,3,4,1
+0,1,0,College or Higher,1,4,1
+1,1,0,Some College,2,4,1
+1,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,6,1
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,4,12,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,4,11,1
+0,1,1,College or Higher,4,21,1
+1,1,0,College or Higher,2,19,1
+1,1,1,Some College,3,20,1
+0,1,1,Some College,4,21,1
+1,1,1,College or Higher,3,5,1
+0,1,1,Some College,3,5,1
+1,1,1,HS Graduate,3,4,1
+0,1,1,College or Higher,3,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,3,4,1
+1,1,0,Some College,4,9,1
+0,1,0,College or Higher,5,4,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,3,10,1
+0,1,0,College or Higher,1,11,1
+1,1,0,Some College,4,11,1
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,5,9,1
+1,1,0,College or Higher,3,5,0
+0,1,0,HS Graduate,2,4,0
+1,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,2,5,1
+0,0,0,College or Higher,2,5,0
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,4,4,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,3,5,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,Some College,3,5,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,2,8,1
+0,1,0,College or Higher,4,5,1
+1,1,0,Some College,3,1,1
+1,1,0,College or Higher,2,12,1
+0,1,0,Some College,3,6,1
+1,1,0,Some College,4,8,1
+1,1,0,Some College,3,4,1
+0,1,0,HS Graduate,2,7,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,2,6,0
+1,0,0,College or Higher,2,5,1
+0,1,0,Some College,3,3,1
+1,1,0,Some College,3,5,1
+1,1,0,Some College,3,12,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,2,6,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,0,0,HS Dropout,3,10,0
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,10,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+1,1,0,HS Graduate,3,8,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,14,1
+1,1,0,College or Higher,5,26,0
+1,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,8,1
+1,1,1,Some College,5,26,1
+0,1,1,College or Higher,6,7,0
+1,1,0,Some College,5,4,1
+0,1,0,College or Higher,1,5,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+0,1,1,College or Higher,6,8,1
+0,1,0,College or Higher,3,7,0
+1,0,0,HS Dropout,3,10,0
+0,0,0,HS Graduate,3,8,0
+0,1,0,College or Higher,4,10,1
+1,0,0,College or Higher,2,6,1
+0,1,0,College or Higher,5,14,1
+1,1,0,College or Higher,5,9,1
+0,1,0,Some College,5,4,1
+1,1,0,Some College,5,13,1
+0,1,1,College or Higher,6,9,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,5,14,1
+0,1,1,Some College,3,7,1
+0,1,0,Some College,3,7,1
+0,1,0,College or Higher,5,14,1
+1,1,0,College or Higher,6,9,1
+1,1,0,Some College,5,13,1
+0,1,1,College or Higher,6,13,0
+0,0,0,College or Higher,4,23,1
+1,0,0,College or Higher,2,10,1
+1,1,0,Not Reported,4,18,1
+1,1,0,Some College,4,6,1
+0,1,0,Some College,3,6,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,Some College,3,6,1
+0,1,0,College or Higher,3,11,1
+1,1,0,Some College,2,12,1
+1,1,0,College or Higher,2,12,1
+0,1,0,College or Higher,1,11,1
+0,1,0,Some College,4,7,1
+1,1,0,Some College,3,7,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,12,1
+1,1,0,HS Graduate,1,13,1
+1,1,0,Some College,2,12,1
+0,1,0,Some College,3,11,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,College or Higher,3,2,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,7,1
+1,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,7,1
+1,1,0,Some College,4,9,1
+1,1,0,College or Higher,5,4,1
+0,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,0
+1,1,0,College or Higher,4,5,0
+1,1,0,College or Higher,2,7,1
+0,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,1,4,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,2,5,0
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,5,8,1
+0,1,0,College or Higher,4,3,1
+1,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,4,6,1
+1,1,0,Some College,4,21,1
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,2,1
+1,1,0,College or Higher,2,19,1
+0,1,0,Some College,2,8,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,4,3,1
+1,1,0,Some College,3,3,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,12,1
+0,1,0,Some College,4,21,1
+1,1,0,College or Higher,4,7,1
+0,1,0,Some College,3,16,1
+1,1,0,Some College,3,5,1
+1,1,0,Some College,4,6,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,College or Higher,2,15,1
+0,1,0,College or Higher,4,3,1
+0,0,0,College or Higher,5,6,1
+1,1,0,College or Higher,5,8,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,College or Higher,4,7,1
+0,1,0,Some College,2,5,1
+1,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,10,1
+0,1,0,HS Graduate,3,8,0
+1,0,0,College or Higher,4,10,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,8,0
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,0
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,5,8,1
+1,1,0,HS Dropout,3,10,0
+1,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,9,1
+1,1,0,College or Higher,5,14,1
+0,1,0,Some College,3,7,1
+1,1,0,Some College,5,13,1
+1,1,0,Some College,5,26,1
+0,1,0,College or Higher,3,8,1
+1,1,0,Some College,5,13,1
+0,1,0,College or Higher,4,11,1
+0,1,1,Some College,2,2,0
+1,1,1,Some College,5,13,1
+0,1,0,Some College,3,4,1
+1,1,0,HS Graduate,5,19,0
+0,1,0,College or Higher,5,10,1
+1,0,0,College or Higher,3,10,1
+0,0,0,College or Higher,6,18,0
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,1,4,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,4,4,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,Some College,4,21,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,3,16,1
+0,1,0,Some College,2,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,1,4,1
+1,1,0,Some College,3,4,1
+0,1,1,College or Higher,3,5,1
+1,1,0,Some College,3,3,1
+0,1,1,HS Graduate,2,6,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,1,12,1
+0,1,0,Some College,3,14,1
+1,1,0,Some College,4,13,1
+1,1,0,College or Higher,2,12,1
+1,1,1,College or Higher,1,12,1
+0,1,1,College or Higher,5,11,1
+0,1,0,College or Higher,2,11,1
+1,1,0,Some College,2,12,1
+1,1,0,College or Higher,3,3,1
+1,1,0,Some College,2,6,1
+0,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,8,1
+0,1,0,Some College,3,16,1
+1,1,0,Some College,4,17,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,5,1
+0,1,0,Not Reported,2,4,1
+1,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,5,6,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,5,3,1
+0,1,0,Some College,3,5,1
+0,1,0,HS Graduate,1,4,1
+1,1,0,College or Higher,5,6,1
+0,1,0,College or Higher,3,8,1
+1,1,0,College or Higher,3,9,0
+0,1,0,College or Higher,4,7,0
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,15,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,3,9,1
+0,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,4,12,1
+0,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,2,15,1
+1,1,0,College or Higher,4,10,1
+0,1,0,College or Higher,2,11,1
+0,1,1,College or Higher,5,10,1
+1,1,0,College or Higher,4,10,1
+1,1,0,Some College,3,5,1
+0,1,0,Some College,3,16,1
+0,1,0,Some College,4,6,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,12,1
+1,1,0,College or Higher,4,16,1
+0,1,0,Some College,4,21,1
+1,1,0,Some College,3,16,1
+0,1,1,Some College,3,16,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,Some College,4,6,1
+1,1,0,Some College,3,5,1
+0,1,0,HS Graduate,3,3,1
+0,1,0,College or Higher,4,5,1
+1,1,0,Some College,3,5,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+0,1,0,HS Graduate,5,19,0
+0,1,0,Some College,5,13,1
+1,1,0,Some College,3,7,1
+1,1,0,College or Higher,6,9,1
+0,1,0,College or Higher,5,9,1
+1,1,0,Some College,5,4,1
+0,1,0,Some College,3,4,1
+1,1,0,HS Graduate,4,16,1
+0,1,0,Some College,2,1,1
+1,1,0,College or Higher,5,9,1
+0,1,0,Some College,7,18,1
+1,1,0,College or Higher,6,7,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,6,9,1
+0,1,0,HS Graduate,5,19,0
+1,1,0,Some College,5,5,0
+0,1,0,College or Higher,5,14,1
+1,1,0,Some College,3,4,1
+1,1,0,Some College,2,2,0
+0,1,0,Some College,5,5,0
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,7,1
+1,1,0,College or Higher,1,4,1
+0,1,1,College or Higher,2,4,1
+0,1,1,Some College,4,4,1
+1,1,0,Some College,3,4,1
+0,1,1,College or Higher,4,14,1
+1,1,0,College or Higher,4,11,1
+1,1,0,HS Graduate,1,9,1
+0,1,0,College or Higher,3,6,1
+1,1,0,Some College,2,7,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,6,1
+0,1,1,College or Higher,3,5,1
+1,1,0,College or Higher,2,19,1
+0,1,0,College or Higher,5,13,1
+0,1,0,College or Higher,4,21,1
+1,1,0,College or Higher,5,7,1
+0,1,0,Some College,4,14,1
+1,1,0,College or Higher,3,12,1
+0,1,0,College or Higher,3,12,1
+1,1,0,College or Higher,4,15,1
+0,1,0,Some College,2,11,1
+1,1,0,Some College,2,22,1
+1,1,0,College or Higher,5,13,1
+0,1,1,College or Higher,3,11,1
+0,1,1,College or Higher,1,12,1
+1,1,0,Some College,3,13,1
+0,1,0,College or Higher,3,11,1
+1,1,0,HS Graduate,2,11,1
+0,1,0,College or Higher,4,6,1
+1,1,0,Some College,4,6,1
+1,1,0,College or Higher,2,4,1
+0,1,0,Some College,5,3,1
+0,1,0,Some College,3,9,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,2,19,1
+0,1,1,College or Higher,4,21,1
+1,1,1,College or Higher,5,7,1
+0,1,0,College or Higher,4,5,1
+0,1,0,Some College,4,6,1
+1,1,0,College or Higher,3,5,1
+1,1,0,Some College,3,5,1
+1,1,0,Some College,3,11,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,25,1
+1,1,0,Some College,4,10,1
+1,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,2,6,0
+0,0,0,College or Higher,4,5,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,5,4,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,2,6,1
+1,1,0,Not Reported,2,2,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+0,1,1,College or Higher,5,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,5,1
+0,1,0,College or Higher,6,7,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,5,8,1
+0,1,0,Some College,4,6,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,3,16,1
+0,1,1,College or Higher,2,5,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,3,21,1
+1,1,0,HS Graduate,3,4,1
+0,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,5,7,1
+0,1,1,Some College,3,5,1
+1,1,1,College or Higher,4,3,1
+0,1,0,College or Higher,2,15,1
+0,1,0,Some College,2,4,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,2,5,1
+1,1,0,HS Graduate,3,2,1
+1,1,0,Some College,3,5,1
+0,1,0,HS Graduate,1,1,1
+0,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,18,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,1,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,1,0,Some College,6,16,1
+0,1,0,Some College,3,7,1
+1,1,0,HS Graduate,4,16,1
+1,1,0,Some College,5,13,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,Some College,2,1,1
+0,1,0,Some College,5,4,1
+1,1,0,Some College,6,16,1
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,8,1
+0,1,1,College or Higher,4,4,1
+1,0,0,College or Higher,3,13,1
+0,1,0,College or Higher,5,6,1
+1,1,0,College or Higher,3,4,1
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,15,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,6,1
+0,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,5,7,1
+1,1,0,College or Higher,2,9,1
+0,1,0,College or Higher,4,10,1
+1,1,0,College or Higher,4,8,1
+0,1,0,Some College,2,8,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,2,25,1
+0,1,0,College or Higher,4,21,1
+1,1,0,Some College,2,6,1
+1,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,3,1
+0,1,0,HS Graduate,1,4,1
+1,1,0,Some College,4,6,1
+1,1,0,College or Higher,3,11,1
+0,1,0,Some College,4,13,1
+1,1,0,College or Higher,1,11,1
+0,1,0,Some College,2,12,1
+1,1,0,College or Higher,5,7,1
+0,1,1,Some College,2,8,1
+1,1,0,College or Higher,2,8,1
+0,1,0,Some College,4,9,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,3,5,1
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,3,5,1
+1,1,0,HS Graduate,2,6,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,5,9,1
+0,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,6,1
+1,1,0,Not Reported,2,4,1
+0,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,5,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,5,0
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,11,1
+1,0,0,College or Higher,6,10,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,6,4,1
+0,1,1,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,HS Graduate,3,3,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,4,6,1
+1,1,0,HS Graduate,2,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,4,15,1
+1,1,0,HS Graduate,3,9,1
+0,1,0,College or Higher,2,9,1
+0,1,0,Some College,3,11,1
+1,1,0,Some College,4,10,1
+1,1,0,College or Higher,2,6,1
+0,0,0,HS Dropout,3,10,0
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,14,1
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,8,1
+0,1,0,College or Higher,6,18,1
+1,1,0,HS Graduate,3,8,0
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,10,1
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+0,1,0,Some College,5,13,1
+0,1,0,College or Higher,6,9,1
+1,1,0,College or Higher,1,5,1
+1,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,13,1
+0,1,1,College or Higher,6,9,1
+0,1,1,Some College,3,7,1
+1,1,1,College or Higher,5,14,1
+0,1,0,Some College,2,1,1
+1,1,0,Some College,5,4,1
+0,1,0,Some College,6,16,1
+1,1,0,Some College,5,26,1
+1,1,0,Some College,3,4,1
+0,1,1,HS Graduate,5,18,0
+1,1,0,Some College,5,5,0
+0,1,0,Some College,2,2,1
+1,1,0,College or Higher,4,7,0
+0,1,0,College or Higher,4,8,1
+0,1,0,Some College,2,8,1
+1,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,5,9,1
+1,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,3,12,1
+1,1,0,Some College,3,7,1
+0,1,0,HS Graduate,5,19,0
+0,1,0,Some College,2,1,1
+1,1,0,Some College,6,16,1
+0,1,1,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,2,6,1
+0,0,0,College or Higher,4,4,1
+1,1,0,Some College,3,11,1
+0,1,0,College or Higher,2,9,1
+1,1,0,College or Higher,4,9,1
+0,1,0,Some College,4,14,1
+0,1,0,Some College,4,7,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,3,6,1
+0,1,0,College or Higher,4,5,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,College or Higher,4,4,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,5,7,1
+0,1,0,HS Graduate,2,6,1
+0,1,0,Some College,3,7,1
+1,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,3,8,1
+0,1,0,Some College,3,8,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,21,1
+0,1,0,HS Graduate,3,19,1
+0,1,1,Some College,5,19,1
+1,1,1,College or Higher,4,19,1
+1,1,1,College or Higher,5,22,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,3,5,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,4,6,1
+1,1,0,Some College,2,7,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,7,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,8,1
+1,1,0,Some College,3,8,1
+0,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,3,5,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,5,7,1
+1,1,0,College or Higher,3,3,1
+0,1,0,College or Higher,2,2,1
+1,1,0,College or Higher,2,3,1
+1,0,0,College or Higher,2,7,1
+0,0,0,College or Higher,3,7,1
+0,0,0,College or Higher,4,3,1
+1,0,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,21,1
+0,1,0,College or Higher,2,12,1
+1,1,0,HS Graduate,3,5,1
+1,1,0,Some College,3,5,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,5,9,1
+0,1,0,Some College,4,6,1
+0,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,5,8,0
+1,0,1,College or Higher,4,6,1
+1,0,0,College or Higher,5,26,0
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,20,0
+0,1,0,College or Higher,6,8,1
+1,1,1,College or Higher,4,2,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,13,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,7,5,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,14,1
+0,1,0,College or Higher,6,7,0
+1,1,0,College or Higher,1,5,1
+0,1,1,College or Higher,5,9,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,5,14,1
+1,1,0,Some College,3,7,1
+0,1,1,Some College,3,4,1
+0,1,0,College or Higher,6,7,0
+1,1,0,Some College,5,5,0
+0,1,0,HS Graduate,5,19,0
+1,1,0,Some College,3,4,1
+0,1,0,HS Graduate,5,19,0
+1,1,0,Some College,2,2,1
+1,1,0,College or Higher,1,5,1
+0,1,0,Some College,5,4,1
+1,1,0,College or Higher,5,14,1
+0,1,0,College or Higher,1,5,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,2,2,1
+0,1,0,College or Higher,6,9,1
+1,1,0,Some College,2,1,1
+1,1,0,College or Higher,5,14,1
+0,1,1,HS Graduate,4,16,1
+0,1,0,Some College,5,5,0
+1,1,0,HS Graduate,5,19,0
+1,1,0,Some College,2,1,1
+1,1,0,HS Graduate,4,16,1
+0,1,0,Some College,5,26,1
+0,1,0,Some College,2,2,1
+1,1,0,Some College,5,4,1
+0,1,1,College or Higher,4,6,1
+1,0,1,College or Higher,4,8,1
+1,0,1,College or Higher,2,6,0
+0,0,1,College or Higher,2,6,1
+0,1,0,Some College,2,7,1
+0,1,0,College or Higher,4,8,1
+1,1,0,HS Graduate,1,5,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,3,4,1
+1,1,0,HS Graduate,2,4,1
+0,1,0,College or Higher,4,4,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,1,12,1
+1,1,0,College or Higher,2,10,1
+1,1,0,Some College,3,13,1
+0,1,0,Some College,4,13,1
+0,1,0,College or Higher,3,12,1
+1,1,0,HS Graduate,2,10,1
+0,1,0,HS Graduate,3,11,0
+1,1,0,College or Higher,4,11,0
+0,1,1,Some College,4,7,1
+1,1,1,College or Higher,4,8,1
+0,1,1,College or Higher,4,6,1
+1,1,1,College or Higher,2,7,1
+0,1,0,College or Higher,5,13,1
+0,1,0,Some College,2,12,1
+1,1,0,HS Graduate,2,11,1
+1,1,0,College or Higher,3,11,1
+0,1,0,College or Higher,3,5,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,4,6,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,Some College,4,9,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,5,1
+0,1,0,College or Higher,3,11,1
+1,1,0,Some College,3,14,1
+1,1,0,College or Higher,4,10,1
+0,1,0,College or Higher,2,9,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,6,0
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,4,1
+0,1,1,College or Higher,1,12,1
+1,1,0,Some College,4,13,1
+0,1,0,Some College,2,12,1
+1,1,0,Some College,4,11,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,5,8,0
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,13,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,7,5,1
+0,1,0,College or Higher,4,14,1
+0,0,0,College or Higher,6,18,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,5,8,0
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,20,0
+1,0,0,College or Higher,4,20,0
+0,0,0,College or Higher,3,13,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,7,5,1
+1,0,0,College or Higher,5,26,0
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,18,1
+1,1,1,College or Higher,1,5,1
+0,1,1,College or Higher,6,7,0
+0,1,1,Some College,3,4,1
+1,1,1,Some College,3,4,1
+0,1,1,HS Graduate,4,16,1
+0,1,0,Some College,5,4,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,1,5,1
+0,1,0,College or Higher,3,8,1
+1,1,0,Some College,6,16,1
+1,1,0,Some College,2,2,1
+0,1,0,College or Higher,6,7,0
+0,1,0,Some College,5,26,1
+0,1,0,Some College,2,2,1
+1,1,0,Some College,5,13,1
+1,1,0,Some College,3,4,1
+1,1,0,Some College,2,2,0
+0,1,0,Some College,2,1,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,5,13,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,5,14,1
+1,1,0,College or Higher,6,9,1
+0,1,1,College or Higher,4,11,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,College or Higher,1,5,1
+1,1,0,Some College,5,5,0
+0,1,1,Some College,2,2,0
+0,1,1,College or Higher,1,5,1
+1,1,0,Some College,5,4,1
+1,1,0,HS Graduate,4,16,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,5,9,1
+0,1,0,College or Higher,1,5,1
+1,1,0,College or Higher,6,7,0
+0,1,1,College or Higher,5,9,1
+1,1,0,Some College,5,13,1
+0,1,1,Some College,5,4,1
+1,1,0,College or Higher,3,8,1
+0,1,1,College or Higher,3,20,0
+1,1,1,College or Higher,6,13,0
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,9,1
+0,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,1,4,1
+0,1,0,College or Higher,2,4,1
+0,1,0,Some College,4,4,1
+1,1,0,College or Higher,5,4,1
+0,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,2,7,1
+0,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,16,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,5,1
+0,1,0,HS Graduate,3,5,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,16,1
+1,1,0,College or Higher,4,16,1
+1,1,0,College or Higher,3,14,1
+0,1,0,College or Higher,4,15,1
+0,1,0,College or Higher,4,7,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,7,1
+0,1,0,HS Graduate,3,4,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,7,1
+1,1,0,Some College,2,7,1
+0,1,0,College or Higher,4,9,0
+1,1,0,College or Higher,4,8,1
+0,1,0,Some College,4,9,1
+1,1,0,College or Higher,3,8,0
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,2,7,1
+0,1,0,College or Higher,2,4,1
+0,0,0,College or Higher,2,4,1
+0,0,0,College or Higher,4,5,1
+1,0,0,College or Higher,4,7,1
+1,0,0,College or Higher,1,4,1
+0,1,1,College or Higher,4,10,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,5,11,1
+0,1,1,College or Higher,2,3,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,4,12,1
+0,1,0,College or Higher,2,6,1
+0,1,0,Some College,2,4,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,3,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,14,1
+1,1,0,HS Graduate,1,11,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+0,0,1,College or Higher,6,21,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,1,College or Higher,2,6,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,4,6,1
+1,1,1,College or Higher,3,2,1
+0,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,6,8,1
+1,1,1,College or Higher,4,7,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,8,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,18,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,6,9,1
+1,1,0,College or Higher,6,7,0
+0,1,1,Some College,5,26,1
+1,1,0,Some College,6,16,1
+0,1,0,College or Higher,5,14,1
+0,1,0,Some College,5,13,1
+1,1,0,Some College,3,7,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,5,14,1
+1,1,0,Some College,5,13,1
+0,1,0,Some College,2,1,1
+1,1,0,Some College,5,5,0
+0,1,0,Some College,2,2,0
+1,1,1,College or Higher,4,13,1
+0,1,0,HS Graduate,4,16,1
+0,1,0,Some College,5,4,1
+0,1,1,College or Higher,3,8,1
+1,1,0,Some College,3,4,1
+1,1,1,HS Graduate,5,19,0
+1,1,0,Some College,3,7,1
+0,1,1,Some College,5,13,1
+0,1,1,College or Higher,4,13,1
+1,1,0,Some College,6,16,1
+1,1,0,Some College,2,1,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,5,26,1
+0,1,0,College or Higher,6,9,1
+0,1,0,Some College,3,4,0
+0,1,1,College or Higher,1,5,1
+1,1,0,College or Higher,6,7,0
+1,1,0,Some College,5,26,1
+0,1,1,College or Higher,6,7,0
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,3,8,1
+0,1,0,Some College,6,16,1
+0,0,1,College or Higher,4,10,1
+1,0,1,HS Dropout,3,10,0
+0,0,1,HS Graduate,3,8,0
+1,0,1,College or Higher,2,6,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,3,5,1
+0,1,0,Some College,3,5,1
+1,1,0,HS Graduate,2,6,1
+0,1,0,Some College,3,3,1
+1,1,1,Some College,4,4,1
+0,1,0,College or Higher,3,3,1
+1,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,4,8,1
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,9,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,3,20,1
+1,1,0,College or Higher,2,19,1
+0,1,0,College or Higher,3,20,1
+1,1,0,Some College,3,21,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,3,5,1
+0,1,0,Some College,4,4,1
+1,1,0,College or Higher,3,5,1
+0,1,0,Some College,4,6,1
+1,1,0,Some College,3,3,1
+1,1,0,Some College,4,4,1
+0,1,0,College or Higher,3,5,1
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,6,1
+1,1,0,HS Graduate,1,9,1
+0,1,0,Some College,3,21,1
+0,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,7,1
+1,1,0,Some College,2,7,1
+1,1,0,College or Higher,5,13,1
+0,1,0,College or Higher,4,21,1
+0,1,0,College or Higher,2,19,1
+1,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,3,5,1
+0,1,0,Some College,4,9,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,College or Higher,2,23,1
+1,1,0,College or Higher,1,11,1
+1,1,0,College or Higher,4,9,1
+0,1,0,College or Higher,4,10,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,5,0
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,0
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,3,6,1
+0,0,0,College or Higher,4,3,1
+0,0,0,College or Higher,5,8,1
+1,0,0,College or Higher,5,12,1
+1,0,0,College or Higher,2,4,1
+0,0,0,College or Higher,2,6,1
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,5,5,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,5,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,Some College,4,6,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,3,9,1
+1,1,0,Some College,4,7,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,5,8,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,0
+1,0,0,College or Higher,6,8,1
+0,1,0,Some College,5,5,0
+0,1,0,College or Higher,1,5,1
+1,1,0,HS Graduate,5,19,0
+1,1,0,College or Higher,6,7,0
+0,1,1,College or Higher,4,11,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,6,16,1
+1,1,0,College or Higher,6,7,0
+0,1,0,Some College,5,26,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,4,1
+1,1,0,HS Graduate,4,16,1
+0,1,1,Some College,3,4,1
+1,1,1,Some College,5,26,1
+0,1,1,Some College,5,13,1
+1,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,13,1
+0,1,0,Some College,2,1,1
+0,1,0,Some College,6,16,1
+1,1,1,HS Graduate,4,16,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,5,26,1
+0,1,0,Some College,3,7,1
+1,1,0,College or Higher,5,9,1
+0,1,0,Some College,5,4,1
+1,1,0,Some College,2,1,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,College or Higher,5,9,1
+1,1,0,Some College,5,5,0
+0,1,1,HS Graduate,5,19,0
+0,1,1,Some College,3,7,1
+1,1,0,Some College,5,26,1
+0,1,0,College or Higher,6,9,1
+0,1,1,Some College,5,13,1
+1,1,0,Some College,5,13,1
+1,1,1,HS Graduate,5,19,0
+0,0,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,3,3,1
+1,1,0,College or Higher,5,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,3,5,0
+1,1,0,Some College,4,6,1
+1,1,0,Not Reported,2,4,1
+0,1,0,Some College,3,3,1
+0,1,0,HS Graduate,1,3,1
+1,1,0,Some College,2,12,1
+0,1,0,HS Graduate,2,6,1
+0,1,0,Some College,3,6,1
+1,1,0,Some College,4,6,1
+1,1,0,Some College,3,6,1
+1,1,0,College or Higher,4,11,1
+0,1,1,College or Higher,3,11,1
+0,1,0,College or Higher,1,11,1
+1,1,0,College or Higher,2,11,1
+0,0,1,College or Higher,2,5,1
+1,1,0,College or Higher,3,6,0
+1,1,0,Some College,3,7,1
+0,1,1,College or Higher,2,6,0
+0,0,0,College or Higher,2,5,0
+1,0,0,College or Higher,2,6,0
+0,1,0,Not Reported,2,5,1
+1,1,0,College or Higher,3,5,0
+0,1,0,HS Graduate,1,10,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,3,11,1
+1,1,0,College or Higher,4,9,1
+0,1,0,College or Higher,5,7,1
+1,1,0,Not Reported,2,5,1
+1,1,0,College or Higher,4,21,1
+0,0,0,College or Higher,3,5,0
+1,1,0,College or Higher,3,5,0
+0,1,0,Not Reported,2,4,1
+0,1,0,College or Higher,4,13,1
+1,1,0,College or Higher,2,11,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,3,5,0
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,5,1
+1,0,0,Not Reported,2,5,1
+1,1,0,Some College,4,9,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,5,5,1
+0,1,0,College or Higher,3,4,1
+0,0,0,College or Higher,3,5,0
+0,1,0,College or Higher,3,6,1
+1,1,0,Some College,3,8,1
+1,1,0,Some College,3,18,1
+1,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,4,8,1
+1,1,0,Not Reported,2,4,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,3,5,0
+0,1,0,HS Graduate,3,12,1
+1,1,0,College or Higher,4,13,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,8,1
+0,1,0,College or Higher,4,6,1
+1,1,0,HS Graduate,3,7,1
+0,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,5,1
+0,0,0,College or Higher,4,5,1
+1,0,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,6,0
+0,1,0,College or Higher,2,4,1
+0,0,0,HS Graduate,3,4,0
+1,1,0,College or Higher,5,4,1
+1,1,0,College or Higher,2,5,0
+1,0,0,College or Higher,2,5,0
+0,1,0,College or Higher,3,4,0
+1,1,0,Not Reported,2,4,1
+0,1,0,College or Higher,2,5,0
+1,1,0,College or Higher,3,5,0
+1,1,0,College or Higher,5,44,1
+0,1,0,College or Higher,6,7,1
+0,1,0,College or Higher,3,2,1
+1,1,0,HS Graduate,2,6,0
+0,1,0,College or Higher,5,6,1
+0,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,2,5,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,1,College or Higher,5,5,1
+1,1,1,College or Higher,2,7,1
+1,1,0,Not Reported,2,4,1
+0,0,0,College or Higher,3,4,0
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,3,5,0
+0,0,0,Not Reported,2,5,1
+1,1,0,College or Higher,3,2,1
+0,0,0,College or Higher,3,1,1
+0,0,0,HS Graduate,3,4,0
+1,1,0,HS Dropout,3,4,1
+0,1,0,Some College,4,8,1
+1,1,0,College or Higher,3,3,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,3,2,1
+0,1,0,Some College,3,5,1
+0,1,0,College or Higher,2,6,0
+0,1,0,Some College,4,8,1
+1,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,3,4,0
+1,1,0,HS Graduate,3,5,1
+0,0,0,College or Higher,2,5,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,4,6,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,College or Higher,3,6,0
+1,1,0,Some College,3,16,1
+0,1,0,Some College,2,8,1
+0,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,3,5,1
+0,1,1,College or Higher,3,7,1
+1,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,4,6,1
+1,1,0,HS Graduate,2,5,1
+1,1,0,Some College,3,3,1
+1,0,0,HS Graduate,3,5,0
+0,0,0,HS Graduate,2,4,0
+0,1,0,Some College,3,3,1
+0,1,0,Some College,4,6,1
+0,1,0,College or Higher,3,4,0
+1,1,0,College or Higher,3,5,0
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,5,7,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,3,4,1
+1,1,0,HS Graduate,2,6,1
+1,0,0,College or Higher,3,5,0
+0,1,0,Some College,4,6,1
+0,0,0,HS Graduate,3,4,0
+1,1,0,Not Reported,2,4,1
+0,0,0,College or Higher,3,4,0
+0,1,0,Some College,4,2,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,5,7,1
+0,1,0,Some College,4,6,1
+0,1,0,College or Higher,3,4,0
+0,1,0,Some College,3,5,1
+1,1,0,HS Graduate,3,3,1
+1,1,0,Some College,3,5,1
+1,0,0,Some College,3,6,1
+1,1,0,Some College,3,5,1
+1,1,0,College or Higher,4,20,1
+0,1,0,Some College,3,17,1
+0,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,2,4,1
+1,1,0,College or Higher,5,15,1
+0,0,0,College or Higher,5,10,1
+0,1,0,College or Higher,3,4,1
+0,1,0,Some College,4,6,1
+0,0,1,Some College,2,3,0
+1,0,0,Some College,4,4,1
+1,1,0,Some College,2,6,0
+1,1,1,College or Higher,3,7,1
+1,1,0,College or Higher,4,6,1
+0,1,1,Some College,2,12,1
+0,1,0,College or Higher,1,5,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,13,1
+0,0,0,College or Higher,4,10,1
+0,1,0,College or Higher,4,20,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,5,8,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,7,5,1
+1,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,0,1,HS Dropout,3,10,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+1,0,1,HS Graduate,3,8,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,2,8,1
+1,1,0,Some College,3,5,1
+0,1,0,Some College,3,4,1
+1,1,0,HS Graduate,2,4,1
+0,1,0,Some College,4,6,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,4,8,1
+0,1,0,Some College,3,8,1
+0,1,0,Some College,3,13,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,2,12,1
+1,1,0,HS Graduate,1,13,1
+1,1,1,College or Higher,3,7,1
+0,1,1,College or Higher,4,5,1
+0,1,0,Some College,3,7,1
+1,1,1,College or Higher,4,6,0
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,1,21,1
+1,1,0,College or Higher,2,15,1
+0,1,0,College or Higher,3,13,1
+1,1,0,Some College,3,22,1
+0,1,0,College or Higher,4,21,1
+1,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,2,19,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,3,6,1
+0,1,1,Some College,3,9,1
+1,1,1,College or Higher,4,8,1
+0,1,0,College or Higher,2,9,1
+1,1,0,Some College,3,10,1
+1,1,0,HS Graduate,2,13,1
+0,1,0,Some College,4,15,1
+0,1,0,College or Higher,3,8,1
+0,1,0,Some College,4,9,1
+1,1,0,College or Higher,3,10,1
+1,1,0,HS Graduate,3,7,1
+1,1,1,College or Higher,3,3,1
+0,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,2,2,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,2,5,1
+1,1,0,Some College,3,6,1
+0,1,0,Some College,3,5,1
+1,0,0,College or Higher,4,5,1
+1,0,1,College or Higher,2,6,1
+0,0,0,College or Higher,5,11,1
+0,0,0,College or Higher,4,3,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,4,1
+1,1,1,College or Higher,4,6,1
+0,1,0,College or Higher,4,5,1
+1,1,0,Some College,3,3,1
+1,1,0,College or Higher,3,9,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,2,8,1
+0,1,0,College or Higher,2,15,1
+1,1,0,College or Higher,4,2,1
+0,0,1,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,20,0
+0,0,0,College or Higher,5,8,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,7,5,1
+1,1,0,College or Higher,3,13,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,5,14,1
+0,1,0,College or Higher,4,13,1
+1,1,0,Some College,3,7,1
+0,1,1,Some College,5,13,1
+1,1,1,College or Higher,4,13,1
+1,1,1,Some College,5,13,1
+0,1,0,College or Higher,6,9,1
+1,1,0,Some College,5,4,1
+0,1,1,Some College,6,16,1
+1,1,0,College or Higher,3,8,1
+0,1,0,Some College,3,4,1
+0,1,0,College or Higher,4,4,1
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,4,6,1
+1,1,0,Some College,2,10,1
+1,1,0,College or Higher,4,15,1
+0,1,0,Some College,3,16,1
+0,1,1,College or Higher,4,16,1
+1,1,0,College or Higher,3,15,1
+1,1,0,Some College,3,8,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,3,1
+1,1,0,Some College,3,21,1
+1,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,4,9,1
+0,1,0,Some College,3,8,1
+0,1,0,College or Higher,1,11,1
+1,1,0,Some College,4,17,1
+0,1,0,Some College,3,10,1
+1,1,0,College or Higher,2,13,1
+0,1,0,College or Higher,5,11,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,4,10,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,5,5,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,4,3,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,5,7,1
+1,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,4,15,1
+0,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,8,0
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,0
+1,0,0,College or Higher,4,8,1
+0,1,0,College or Higher,2,10,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,5,8,1
+1,0,0,College or Higher,6,8,0
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,2,10,1
+1,0,0,College or Higher,5,8,1
+1,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,1,5,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,13,1
+1,1,0,College or Higher,4,13,1
+0,1,0,Some College,5,13,1
+0,1,0,College or Higher,1,5,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,4,11,1
+0,1,1,Some College,2,1,1
+1,1,1,Some College,6,16,1
+0,1,0,Some College,5,26,1
+1,1,0,Some College,2,2,0
+0,1,1,Some College,5,5,0
+0,1,1,Some College,3,4,1
+1,1,1,Some College,3,4,1
+1,1,1,College or Higher,1,5,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,3,4,1
+1,1,0,HS Graduate,4,16,1
+0,1,0,Some College,6,16,1
+1,1,0,College or Higher,6,7,0
+0,1,0,HS Graduate,5,19,0
+0,1,1,Some College,5,4,1
+1,1,0,Some College,6,16,1
+0,1,1,College or Higher,6,20,0
+1,1,0,College or Higher,5,26,0
+0,1,1,College or Higher,5,10,1
+1,0,0,College or Higher,5,14,1
+0,1,0,College or Higher,4,8,1
+1,1,0,Some College,3,9,1
+0,1,0,College or Higher,3,6,1
+1,1,0,Some College,3,8,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,4,8,1
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,9,1
+1,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,Some College,3,13,1
+0,1,0,College or Higher,2,11,1
+0,1,0,College or Higher,1,11,1
+1,1,0,HS Graduate,2,10,0
+1,1,0,College or Higher,5,5,1
+0,1,0,Some College,4,9,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,3,5,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,College or Higher,4,5,1
+1,1,0,Some College,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,8,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,2,10,1
+1,0,1,College or Higher,4,8,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,5,8,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,11,1
+0,1,1,College or Higher,3,8,1
+0,1,1,College or Higher,6,7,1
+1,1,0,College or Higher,1,5,1
+0,1,0,Some College,2,1,1
+1,1,0,Some College,3,4,1
+0,1,0,HS Graduate,5,19,0
+1,1,0,Some College,5,13,1
+0,1,0,Some College,2,2,1
+1,1,1,Some College,5,26,1
+1,1,0,Some College,5,4,1
+0,1,1,HS Graduate,4,16,1
+0,1,1,Some College,6,16,1
+1,1,0,College or Higher,6,7,1
+1,1,0,College or Higher,1,5,1
+0,1,1,College or Higher,4,11,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,Some College,2,2,1
+1,1,1,HS Graduate,5,19,0
+0,1,0,Some College,5,5,0
+0,1,0,Some College,3,4,1
+0,1,0,Some College,5,26,1
+1,1,0,HS Graduate,5,19,0
+1,1,0,Some College,5,13,1
+0,1,0,HS Graduate,4,16,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,6,9,1
+1,1,0,Some College,2,1,1
+1,1,0,College or Higher,5,14,1
+0,1,1,Some College,5,26,1
+1,1,1,Some College,2,1,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,13,1
+0,1,1,College or Higher,4,5,1
+0,1,1,College or Higher,4,13,1
+1,1,0,Some College,5,13,1
+1,1,0,College or Higher,6,9,1
+0,1,0,Some College,3,7,1
+0,1,0,College or Higher,6,20,0
+0,0,1,College or Higher,5,14,1
+1,0,0,College or Higher,5,10,1
+1,1,0,College or Higher,5,26,0
+0,1,0,Some College,2,7,1
+0,1,0,College or Higher,4,5,1
+1,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,7,1
+1,1,0,HS Graduate,3,5,1
+0,1,0,College or Higher,3,7,1
+0,1,0,Some College,4,9,1
+1,1,0,Some College,3,6,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,4,7,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,4,6,1
+0,0,0,College or Higher,2,6,1
+0,0,0,College or Higher,5,11,1
+1,0,0,College or Higher,4,5,1
+1,0,0,College or Higher,6,10,1
+0,1,0,College or Higher,5,11,1
+0,1,0,Some College,4,3,1
+1,1,0,College or Higher,4,10,1
+1,1,1,College or Higher,4,2,1
+1,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,2,3,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,18,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,5,8,1
+0,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,5,8,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,14,1
+0,1,0,College or Higher,6,8,0
+0,0,0,College or Higher,2,10,1
+1,0,0,College or Higher,6,8,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+1,1,0,Some College,3,7,1
+0,1,1,Some College,2,2,0
+0,1,1,College or Higher,5,14,1
+1,1,1,College or Higher,4,13,1
+1,1,0,Some College,5,5,0
+0,1,0,College or Higher,4,13,1
+1,1,0,College or Higher,6,9,1
+0,1,0,Some College,5,13,1
+0,1,0,Some College,3,7,1
+0,1,0,Some College,6,16,1
+1,1,0,College or Higher,5,14,1
+1,1,0,Some College,5,4,1
+1,1,0,Some College,5,13,1
+0,1,0,College or Higher,4,13,1
+0,1,0,Some College,5,5,0
+1,1,0,HS Graduate,5,19,0
+0,1,1,Some College,5,13,1
+1,1,1,Some College,3,7,1
+0,1,1,College or Higher,5,14,1
+1,1,1,College or Higher,6,9,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,5,13,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,1,5,1
+0,1,1,HS Graduate,3,8,0
+0,0,1,College or Higher,4,10,1
+1,0,1,College or Higher,2,6,1
+1,1,0,HS Dropout,3,10,0
+1,1,0,College or Higher,4,9,1
+0,1,0,HS Graduate,1,5,1
+1,1,0,Some College,3,8,1
+0,1,0,Some College,3,9,1
+0,1,0,College or Higher,5,5,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,4,9,1
+1,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,6,8,0
+1,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,8,0
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,3,7,0
+1,1,0,Some College,3,4,1
+0,1,0,Some College,2,1,1
+0,1,0,College or Higher,6,9,1
+1,1,0,HS Graduate,4,16,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,1,5,1
+0,1,0,College or Higher,6,7,0
+1,1,1,College or Higher,4,13,1
+0,1,0,College or Higher,5,14,1
+0,1,0,Some College,3,7,1
+1,1,1,Some College,5,13,1
+1,1,1,College or Higher,4,13,1
+0,1,1,Some College,5,5,0
+1,1,1,College or Higher,5,14,1
+1,1,1,Some College,2,2,0
+0,1,1,Some College,3,4,1
+1,1,0,Some College,5,13,1
+1,1,0,College or Higher,5,9,1
+0,1,0,College or Higher,3,8,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,5,9,1
+1,1,0,College or Higher,3,8,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,4,11,1
+0,1,1,College or Higher,1,5,1
+1,1,0,Some College,5,13,1
+1,1,0,College or Higher,3,8,1
+0,1,1,College or Higher,4,11,1
+0,1,0,College or Higher,6,7,1
+1,1,0,Some College,2,2,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,6,16,1
+1,1,0,Some College,5,5,0
+1,1,0,Some College,5,26,1
+0,1,0,HS Graduate,5,19,0
+0,1,0,Some College,5,4,1
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,4,1
+1,0,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,2,9,1
+0,1,0,Some College,4,9,1
+1,1,0,Some College,3,9,1
+0,1,0,College or Higher,5,5,1
+1,1,0,HS Graduate,3,4,1
+0,1,0,Some College,3,4,1
+1,0,0,College or Higher,4,5,1
+0,0,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,6,5,1
+0,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,5,5,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,2,4,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,4,8,1
+0,0,0,College or Higher,4,8,0
+0,0,0,College or Higher,6,18,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,10,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,5,26,0
+0,1,0,College or Higher,6,8,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+1,1,0,Some College,2,1,1
+1,1,0,HS Graduate,4,16,1
+0,1,0,Some College,5,26,1
+0,1,0,Some College,2,2,1
+1,1,0,Some College,5,4,1
+0,1,1,College or Higher,3,8,1
+0,1,1,Some College,3,4,1
+1,1,1,College or Higher,5,9,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,1,5,1
+1,1,0,College or Higher,6,7,1
+0,1,0,Some College,2,2,1
+1,1,0,Some College,3,4,1
+0,1,1,College or Higher,6,7,0
+0,1,1,College or Higher,1,5,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,13,1
+0,1,0,College or Higher,5,14,1
+1,1,0,College or Higher,4,13,1
+0,1,0,Some College,5,4,1
+0,1,0,HS Graduate,5,19,0
+1,1,0,Some College,3,7,1
+1,1,0,Some College,6,16,1
+0,1,0,Some College,5,13,1
+0,1,0,College or Higher,4,13,1
+1,1,0,College or Higher,5,14,1
+1,1,0,Some College,3,7,1
+0,1,1,College or Higher,2,6,1
+1,1,1,College or Higher,3,7,0
+0,0,0,College or Higher,2,6,0
+1,0,0,College or Higher,4,4,1
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,2,9,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,2,1
+0,0,0,College or Higher,4,5,1
+0,0,0,Not Reported,2,6,1
+1,0,0,HS Graduate,5,3,1
+1,0,0,College or Higher,5,3,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,5,5,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,5,8,1
+0,0,1,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,2,1
+0,0,1,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+1,1,1,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+0,1,0,HS Graduate,4,16,1
+1,1,0,HS Graduate,5,19,0
+0,1,0,Some College,5,4,1
+1,1,0,Some College,3,4,1
+1,1,0,Some College,2,1,1
+0,1,1,Some College,2,2,1
+0,1,1,Some College,6,16,1
+1,1,1,Some College,5,26,1
+0,1,0,Some College,5,26,1
+0,1,0,Some College,5,5,0
+1,1,0,College or Higher,6,7,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,2,2,0
+0,1,0,Some College,2,1,1
+1,1,1,College or Higher,5,14,1
+0,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,2,6,0
+0,0,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,4,19,1
+1,1,0,College or Higher,2,2,1
+0,1,1,College or Higher,5,13,1
+1,1,0,College or Higher,3,7,1
+0,0,0,College or Higher,4,20,1
+1,0,0,Some College,5,15,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,6,1
+1,1,1,College or Higher,2,5,1
+0,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,2,14,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,3,13,1
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,20,0
+1,0,0,College or Higher,5,8,0
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,5,8,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,2,10,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,7,5,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,0
+0,1,0,College or Higher,6,9,1
+0,1,0,College or Higher,6,7,1
+1,1,0,Some College,5,26,1
+1,1,0,Some College,5,13,1
+0,1,0,Some College,5,13,1
+1,1,0,Some College,5,4,1
+0,1,0,Some College,6,16,1
+1,1,0,College or Higher,1,5,1
+0,1,0,College or Higher,6,9,1
+0,1,0,Some College,5,5,0
+1,1,0,Some College,2,2,0
+1,1,0,Some College,5,26,1
+0,1,1,Some College,5,13,1
+1,1,1,College or Higher,4,13,1
+1,1,1,Some College,3,7,1
+0,1,1,College or Higher,5,14,1
+0,1,0,Some College,5,4,1
+0,1,0,Some College,5,26,1
+1,1,0,Some College,5,13,1
+1,1,0,HS Graduate,5,19,0
+0,1,1,College or Higher,5,9,1
+1,1,1,College or Higher,3,8,1
+1,1,0,Some College,2,1,1
+0,1,0,Some College,5,13,1
+0,1,0,Some College,3,7,1
+0,1,0,College or Higher,6,9,1
+1,1,1,Some College,5,13,1
+1,1,1,Some College,6,16,1
+0,0,0,College or Higher,4,3,1
+1,0,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,10,1
+0,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,7,1
+0,1,0,HS Graduate,5,19,0
+1,1,0,Some College,6,16,1
+0,1,0,Some College,3,4,1
+0,1,0,Some College,6,16,1
+1,1,0,Some College,2,1,1
+1,1,1,HS Graduate,4,16,1
+0,1,0,Some College,2,2,1
+1,1,0,HS Graduate,5,19,0
+0,1,0,Some College,5,5,0
+1,1,0,College or Higher,6,7,0
+0,1,1,Some College,3,4,1
+0,1,0,Some College,5,4,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,5,26,1
+1,1,0,College or Higher,1,5,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,5,9,1
+0,1,0,College or Higher,3,8,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,2,1,1
+1,1,0,Some College,5,5,0
+1,1,0,College or Higher,4,13,1
+0,1,1,College or Higher,5,14,1
+1,1,0,Some College,6,16,1
+0,1,0,College or Higher,6,7,0
+1,1,0,Some College,5,13,1
+0,1,0,College or Higher,4,13,1
+0,1,0,Some College,5,4,1
+0,1,0,College or Higher,5,9,1
+1,1,0,HS Graduate,4,16,1
+1,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,13,1
+0,1,0,Some College,2,1,1
+0,1,1,College or Higher,5,9,1
+1,1,1,College or Higher,3,8,1
+0,1,1,College or Higher,2,6,1
+1,0,1,College or Higher,2,6,0
+0,0,1,College or Higher,3,7,0
+1,0,1,College or Higher,4,4,1
+0,0,0,College or Higher,4,7,1
+1,0,0,College or Higher,4,3,1
+0,1,0,College or Higher,5,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,HS Graduate,3,8,0
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,7,5,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,20,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,10,1
+1,1,0,College or Higher,3,13,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,5,8,0
+0,1,0,HS Dropout,3,10,0
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+0,1,1,HS Graduate,4,16,1
+0,1,0,Some College,3,7,1
+1,1,0,Some College,5,26,1
+1,1,0,Some College,2,2,0
+0,1,0,Some College,3,4,1
+0,1,1,College or Higher,1,5,1
+1,1,1,Some College,5,26,1
+1,1,0,Some College,5,4,1
+0,1,0,College or Higher,1,5,1
+0,1,0,Some College,5,4,1
+1,1,0,Some College,5,13,1
+1,1,0,College or Higher,5,9,1
+0,1,1,Some College,6,16,1
+1,1,0,Some College,3,4,1
+1,1,1,College or Higher,6,7,0
+0,1,0,Some College,2,2,1
+0,1,1,Some College,3,7,1
+1,1,0,College or Higher,6,9,1
+1,1,1,Some College,2,2,1
+0,1,0,College or Higher,5,9,1
+0,1,0,Some College,5,5,0
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,5,14,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,3,10,1
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,5,14,1
+0,0,0,College or Higher,6,20,0
+1,1,1,College or Higher,5,10,1
+1,0,0,College or Higher,5,26,0
+0,1,0,Some College,3,6,1
+1,1,0,HS Graduate,2,6,1
+0,1,0,Some College,4,6,1
+1,1,0,Some College,3,6,1
+0,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,3,6,1
+0,0,0,Not Reported,2,4,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,4,0
+1,1,0,Some College,4,4,1
+0,1,0,Some College,3,4,1
+0,1,0,College or Higher,1,4,1
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,2,11,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,1,11,1
+1,1,0,College or Higher,3,11,1
+0,1,0,HS Dropout,3,4,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,2,5,0
+1,0,0,College or Higher,2,6,0
+0,0,0,HS Graduate,2,2,0
+1,1,0,Some College,3,16,1
+0,1,0,College or Higher,4,16,1
+0,0,0,HS Dropout,3,4,1
+1,0,0,College or Higher,3,3,1
+0,1,0,Some College,4,13,1
+1,1,0,College or Higher,1,12,1
+1,0,0,College or Higher,3,2,1
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,3,9,1
+1,1,0,Some College,3,8,1
+0,1,0,Some College,4,6,1
+0,1,0,Some College,4,6,1
+0,0,0,College or Higher,3,5,0
+1,0,0,Not Reported,2,5,1
+1,1,0,Some College,3,5,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,3,5,1
+0,1,0,Some College,4,8,1
+1,1,0,Some College,3,9,1
+0,0,0,College or Higher,2,5,1
+1,1,0,HS Dropout,3,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,2,5,0
+1,1,0,Some College,2,13,1
+0,1,0,College or Higher,2,12,1
+1,1,0,College or Higher,1,11,1
+0,1,0,Some College,3,12,1
+0,1,0,College or Higher,5,22,1
+0,1,0,College or Higher,2,19,1
+1,1,0,HS Graduate,3,10,1
+1,1,0,Some College,4,21,1
+0,0,0,College or Higher,3,4,1
+0,1,0,College or Higher,2,5,1
+1,0,0,HS Dropout,3,5,1
+1,1,0,College or Higher,4,21,1
+1,0,0,College or Higher,2,5,0
+0,1,0,College or Higher,3,10,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,4,8,1
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,21,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,3,9,1
+1,1,0,Not Reported,2,4,1
+0,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,3,5,1
+0,1,0,Not Reported,2,4,1
+1,0,0,College or Higher,3,5,0
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,3,7,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,2,7,1
+0,1,0,College or Higher,3,4,0
+1,1,0,College or Higher,2,4,1
+1,1,0,College or Higher,3,5,0
+0,0,0,HS Graduate,3,6,1
+0,1,1,College or Higher,2,6,0
+0,1,1,HS Graduate,2,13,0
+1,1,1,College or Higher,3,6,0
+1,1,0,College or Higher,3,2,1
+0,1,1,College or Higher,3,4,0
+1,1,0,Not Reported,2,3,1
+1,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,3,4,0
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,2,4,0
+1,0,0,College or Higher,3,5,0
+0,0,0,College or Higher,3,2,1
+1,1,0,HS Graduate,2,5,0
+1,1,0,College or Higher,2,14,1
+0,0,0,College or Higher,2,4,0
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,10,1
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,6,7,1
+1,0,0,Not Reported,2,4,1
+0,1,0,College or Higher,3,4,0
+0,1,0,College or Higher,4,10,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,HS Graduate,3,4,1
+1,0,0,HS Graduate,3,6,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,2,7,1
+0,1,0,College or Higher,2,7,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,4,20,1
+1,1,0,College or Higher,2,23,1
+1,1,1,Not Reported,2,4,1
+0,1,1,College or Higher,3,4,0
+1,1,0,College or Higher,4,3,1
+0,1,0,Some College,2,7,1
+1,1,0,College or Higher,3,3,1
+0,1,0,College or Higher,2,3,1
+0,0,0,College or Higher,1,1,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,2,3,0
+1,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,3,7,1
+0,1,1,College or Higher,3,4,0
+1,0,0,Some College,3,6,0
+1,1,1,College or Higher,5,11,1
+0,1,1,College or Higher,2,22,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,8,1
+1,0,0,College or Higher,3,2,1
+0,0,0,College or Higher,3,3,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,2,4,0
+0,1,1,Some College,3,3,1
+0,1,0,Some College,3,6,1
+1,1,1,College or Higher,4,6,1
+1,1,0,Some College,3,16,1
+1,0,0,College or Higher,3,6,0
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,6,0
+1,1,0,Some College,3,4,1
+0,0,0,College or Higher,3,6,0
+1,1,0,College or Higher,3,4,1
+0,0,0,Not Reported,2,4,1
+1,1,0,College or Higher,3,4,0
+0,1,0,Some College,4,8,1
+1,1,0,Some College,4,8,1
+0,1,0,College or Higher,4,8,1
+1,1,0,Some College,3,8,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,4,4,1
+0,0,0,HS Graduate,3,5,0
+1,0,0,HS Graduate,2,19,0
+0,1,0,Some College,3,6,1
+1,1,0,Some College,4,21,1
+1,1,0,Some College,2,8,1
+0,1,0,College or Higher,1,12,1
+0,1,0,Some College,3,21,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,12,1
+1,1,0,College or Higher,4,11,1
+1,0,0,HS Graduate,3,2,0
+0,1,0,Some College,3,12,0
+1,1,0,College or Higher,3,12,1
+1,1,0,College or Higher,1,11,1
+0,1,0,College or Higher,2,15,1
+0,0,0,College or Higher,5,13,1
+1,1,0,HS Graduate,3,5,0
+0,1,0,College or Higher,3,5,1
+0,0,0,HS Graduate,4,9,1
+0,0,0,Some College,2,3,0
+1,0,0,College or Higher,4,11,0
+1,1,0,College or Higher,4,6,1
+0,1,0,HS Graduate,3,6,1
+1,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,14,1
+0,0,1,College or Higher,4,2,1
+0,0,1,College or Higher,4,6,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,10,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,6,13,0
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,23,1
+1,1,1,College or Higher,3,7,0
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,8,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,10,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,11,1
+0,0,0,College or Higher,4,8,1
+0,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,5,8,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,4,6,1
+1,1,1,College or Higher,4,8,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,8,0
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,18,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,8,0
+1,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,2,10,1
+0,1,0,Some College,5,13,1
+0,1,1,College or Higher,6,9,1
+1,1,1,College or Higher,4,13,1
+1,1,0,Some College,3,7,1
+0,1,0,Some College,3,7,1
+1,1,0,Some College,5,13,1
+0,1,0,College or Higher,4,13,1
+1,1,0,College or Higher,5,14,1
+0,1,0,College or Higher,6,9,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,4,13,1
+1,1,0,Some College,3,7,1
+0,1,0,Some College,3,4,1
+0,1,0,Some College,6,16,1
+1,1,0,HS Graduate,4,16,1
+1,1,0,Some College,5,4,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,5,13,1
+1,1,0,College or Higher,5,9,1
+0,1,0,College or Higher,3,8,1
+0,1,0,College or Higher,3,2,1
+0,0,0,College or Higher,3,13,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,2,6,1
+1,1,1,College or Higher,4,11,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,6,18,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,14,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,5,9,1
+0,1,0,Some College,2,1,1
+0,1,0,HS Graduate,5,19,0
+0,1,0,Some College,2,1,1
+1,1,0,Some College,5,4,1
+1,1,0,Some College,6,16,1
+0,1,0,HS Graduate,5,19,0
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,5,14,1
+1,1,0,Some College,5,5,0
+0,1,0,Some College,3,4,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,5,14,1
+1,1,0,Some College,2,2,0
+0,1,0,Some College,6,16,1
+1,1,0,College or Higher,1,5,1
+0,1,0,College or Higher,6,7,0
+1,1,0,Some College,5,13,1
+0,1,0,Some College,3,4,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,1,5,1
+1,1,0,Some College,5,13,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,3,8,1
+0,1,0,Some College,5,13,1
+0,1,0,College or Higher,5,9,1
+0,1,0,College or Higher,3,8,1
+1,1,0,College or Higher,5,9,1
+0,1,0,Some College,5,13,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,4,20,0
+1,0,1,College or Higher,7,5,1
+0,1,0,College or Higher,5,8,0
+1,0,0,College or Higher,3,13,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,5,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,0
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,5,8,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,8,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,2,10,1
+0,1,0,College or Higher,5,8,0
+1,1,0,College or Higher,3,13,1
+0,0,0,College or Higher,7,5,1
+1,0,0,College or Higher,4,20,0
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,4,11,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,5,26,0
+0,1,0,College or Higher,5,26,0
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,6,18,1
+1,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,3,1
+0,1,1,College or Higher,6,4,1
+1,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+1,1,0,HS Graduate,3,8,0
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,10,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,1,College or Higher,3,13,1
+0,1,0,College or Higher,4,6,1
+0,1,0,HS Dropout,3,10,0
+0,0,1,College or Higher,4,20,0
+0,1,1,College or Higher,5,8,0
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,7,5,1
+0,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,2,6,1
+1,1,1,College or Higher,6,18,1
+0,1,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,2,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,6,8,0
+0,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,2,10,1
+1,0,1,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,8,0
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,0
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,2,10,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,18,1
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+1,1,1,College or Higher,4,8,1
+0,0,1,College or Higher,5,26,0
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+0,1,1,College or Higher,6,18,1
+1,0,1,College or Higher,4,14,1
+1,0,0,College or Higher,6,20,0
+0,1,0,College or Higher,5,26,0
+0,1,1,College or Higher,5,10,1
+1,0,0,College or Higher,5,14,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,8,1
+1,1,0,Some College,2,12,1
+0,1,0,Some College,4,8,1
+0,0,0,College or Higher,3,4,0
+0,1,0,College or Higher,3,11,1
+1,1,0,Not Reported,2,4,1
+1,1,0,College or Higher,2,12,1
+1,1,0,Some College,3,8,1
+0,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,1,4,1
+1,1,0,Some College,2,4,1
+0,0,1,College or Higher,2,5,0
+0,1,1,College or Higher,2,6,0
+1,0,1,College or Higher,3,7,0
+1,1,1,College or Higher,2,5,1
+0,1,0,HS Graduate,3,5,0
+1,0,1,HS Graduate,3,7,0
+0,1,0,College or Higher,3,4,0
+0,1,0,College or Higher,5,9,1
+0,0,0,HS Graduate,3,3,0
+1,1,0,College or Higher,3,12,1
+1,1,0,College or Higher,5,13,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,2,14,1
+1,0,0,College or Higher,1,3,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,7,1
+1,1,0,Some College,4,7,1
+0,1,0,College or Higher,3,6,1
+1,0,0,College or Higher,3,6,0
+1,1,0,Some College,3,8,1
+0,1,0,College or Higher,3,5,0
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,4,8,1
+0,1,0,Some College,4,6,1
+0,1,1,College or Higher,4,5,1
+1,1,1,College or Higher,3,5,1
+1,1,0,Some College,3,5,1
+0,1,0,Some College,3,7,1
+0,1,0,College or Higher,2,5,0
+1,0,0,College or Higher,3,4,1
+1,0,0,College or Higher,3,6,0
+0,1,0,Some College,3,13,1
+1,1,0,College or Higher,3,11,1
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,1,11,1
+0,1,1,Some College,3,10,1
+0,0,0,Some College,3,6,1
+1,1,0,Some College,4,21,1
+1,1,0,College or Higher,2,6,0
+1,0,0,College or Higher,3,4,1
+0,0,0,College or Higher,3,5,0
+0,1,0,College or Higher,2,25,1
+0,1,0,College or Higher,4,21,1
+1,1,0,Some College,2,4,1
+1,1,0,College or Higher,3,8,1
+1,1,0,College or Higher,3,5,1
+0,0,0,College or Higher,3,5,0
+0,0,0,College or Higher,3,6,0
+0,1,0,College or Higher,3,4,1
+1,0,0,College or Higher,1,4,1
+1,1,0,College or Higher,4,6,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,6,0
+0,0,0,College or Higher,3,5,0
+0,1,0,College or Higher,2,4,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,6,1
+1,0,0,College or Higher,2,5,1
+0,0,0,Not Reported,2,2,1
+0,0,0,College or Higher,6,4,1
+1,0,0,College or Higher,4,7,1
+0,0,0,College or Higher,4,3,1
+1,0,0,College or Higher,5,12,1
+0,0,1,HS Graduate,3,4,0
+1,0,1,College or Higher,2,5,0
+0,1,0,College or Higher,5,6,1
+0,1,0,College or Higher,3,6,0
+1,0,0,College or Higher,2,5,0
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,2,5,0
+0,1,1,College or Higher,2,6,1
+0,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,5,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,4,0
+1,1,0,College or Higher,2,6,1
+1,1,0,HS Dropout,3,4,1
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,2,4,0
+1,1,1,College or Higher,4,6,1
+1,0,1,HS Graduate,3,4,1
+1,1,0,College or Higher,4,5,1
+0,0,0,HS Graduate,3,6,0
+0,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,3,3,1
+0,1,1,College or Higher,2,5,1
+0,1,0,HS Dropout,3,4,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,7,1
+0,1,0,College or Higher,2,4,1
+1,1,0,College or Higher,4,5,1
+0,0,1,HS Graduate,3,4,0
+1,1,0,College or Higher,6,5,1
+0,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,2,3,1
+1,0,0,HS Dropout,3,4,1
+1,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,3,1,1
+1,0,0,College or Higher,3,2,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,3,5,1
+0,1,1,College or Higher,3,4,0
+0,1,0,College or Higher,4,5,1
+1,1,1,Some College,4,5,1
+1,1,0,College or Higher,3,4,1
+1,0,1,Not Reported,2,4,1
+0,1,0,Some College,3,5,1
+1,0,0,College or Higher,1,9,1
+1,1,0,Some College,3,2,1
+0,1,0,College or Higher,3,5,0
+0,1,0,Some College,4,6,1
+1,1,0,HS Graduate,2,5,0
+0,1,0,College or Higher,3,6,1
+1,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,2,1
+1,1,1,Not Reported,2,4,1
+0,1,1,College or Higher,3,4,0
+0,1,0,Some College,4,7,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,4,5,1
+0,1,0,Some College,2,3,0
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,1,9,1
+0,1,0,College or Higher,4,7,1
+0,0,0,College or Higher,2,6,0
+1,0,0,College or Higher,3,2,1
+1,1,0,College or Higher,4,3,1
+0,1,0,Some College,3,5,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,3,1
+1,0,0,HS Graduate,3,4,1
+1,1,0,College or Higher,2,4,1
+0,0,0,HS Graduate,3,6,1
+0,1,0,HS Graduate,2,9,0
+1,0,0,College or Higher,3,2,1
+1,1,0,Some College,4,6,1
+0,1,0,Some College,3,5,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,Some College,3,4,1
+1,0,0,HS Dropout,3,4,1
+0,1,0,Some College,3,4,1
+0,1,0,College or Higher,3,3,1
+1,1,0,Some College,4,6,1
+0,1,0,HS Graduate,2,4,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,2,15,1
+0,1,0,Some College,4,9,1
+0,1,0,College or Higher,5,7,1
+1,1,0,Some College,2,12,1
+1,1,0,College or Higher,2,5,1
+0,1,0,HS Graduate,3,1,0
+0,0,0,College or Higher,1,7,1
+1,0,0,HS Graduate,3,3,1
+1,1,0,College or Higher,3,11,1
+0,1,0,Some College,4,9,1
+1,1,0,College or Higher,4,10,1
+1,0,0,College or Higher,5,16,1
+0,0,1,College or Higher,6,18,1
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,16,1
+0,0,0,College or Higher,4,16,1
+0,1,0,College or Higher,4,14,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,6,18,1
+1,1,0,College or Higher,4,23,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,5,26,0
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,5,11,0
+0,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,18,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,10,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,10,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,5,9,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,5,14,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,5,16,0
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,6,18,1
+0,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,13,0
+1,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,1,College or Higher,3,13,1
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,23,1
+0,1,0,College or Higher,4,6,1
+0,1,1,College or Higher,5,26,0
+1,1,0,HS Graduate,5,15,0
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,8,0
+1,0,0,College or Higher,2,10,1
+0,1,0,College or Higher,6,8,0
+0,0,0,College or Higher,5,8,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,2,6,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,5,26,0
+0,0,0,College or Higher,6,18,1
+1,0,0,HS Dropout,3,10,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,10,1
+1,0,0,College or Higher,4,8,1
+0,1,0,HS Graduate,3,8,0
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,2,10,1
+1,1,0,College or Higher,6,8,0
+0,0,0,College or Higher,4,8,0
+1,0,0,College or Higher,5,8,1
+0,1,0,College or Higher,5,9,1
+1,1,0,College or Higher,6,4,0
+0,1,0,College or Higher,3,2,0
+1,1,0,College or Higher,3,8,1
+0,0,0,College or Higher,5,26,0
+0,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,18,1
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,6,18,1
+1,0,0,College or Higher,4,8,1
+0,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,0
+0,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,8,0
+0,0,0,College or Higher,4,8,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,2,10,1
+1,0,0,College or Higher,5,26,0
+0,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,2,1
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,2,6,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+0,1,1,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,8,1
+1,0,1,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,2,1
+0,0,1,College or Higher,4,6,1
+0,1,0,College or Higher,4,14,1
+1,0,0,College or Higher,6,18,1
+1,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,1,1,College or Higher,4,8,0
+0,1,1,College or Higher,4,8,1
+0,1,1,Some College,2,8,1
+1,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+0,0,1,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+1,1,1,College or Higher,3,7,0
+0,0,1,College or Higher,3,7,0
+1,1,0,College or Higher,2,6,0
+0,0,1,College or Higher,4,7,1
+1,0,1,College or Higher,4,4,1
+0,1,1,College or Higher,4,4,1
+1,1,1,College or Higher,2,4,1
+0,1,0,College or Higher,5,7,1
+0,1,1,College or Higher,4,6,1
+1,1,0,Some College,4,6,1
+1,0,0,HS Graduate,2,3,0
+1,1,1,College or Higher,4,9,1
+1,1,0,College or Higher,3,4,1
+0,0,0,College or Higher,3,2,1
+0,0,0,College or Higher,2,4,0
+0,1,0,Some College,2,4,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,1,4,1
+1,1,0,College or Higher,3,5,1
+0,1,1,HS Graduate,2,6,1
+1,1,1,College or Higher,4,11,1
+1,1,1,Some College,3,3,1
+0,1,0,College or Higher,3,5,1
+1,0,0,College or Higher,2,6,0
+0,0,0,College or Higher,3,6,0
+0,0,0,College or Higher,3,5,0
+1,0,0,Some College,3,7,1
+0,0,0,College or Higher,2,5,1
+1,1,0,College or Higher,3,3,1
+1,1,0,Some College,3,6,1
+0,1,0,College or Higher,3,7,1
+0,0,0,College or Higher,3,6,0
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,4,6,1
+0,1,0,HS Graduate,2,6,1
+1,0,0,HS Graduate,2,2,0
+0,1,0,College or Higher,2,15,1
+0,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,1,12,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,2,7,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,3,2,0
+1,1,0,College or Higher,4,7,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,4,5,1
+1,0,0,HS Graduate,2,2,0
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,5,4,1
+0,1,0,Some College,4,4,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,5,0
+1,0,0,Not Reported,2,5,1
+0,1,0,College or Higher,1,11,1
+1,1,0,College or Higher,5,12,1
+1,1,0,College or Higher,2,25,1
+0,1,0,College or Higher,6,11,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Not Reported,2,2,1
+1,1,0,Some College,3,5,1
+0,0,0,Not Reported,2,4,1
+1,1,0,College or Higher,3,5,0
+0,0,0,College or Higher,3,5,0
+1,1,1,College or Higher,3,3,1
+0,1,1,College or Higher,4,8,1
+1,1,1,Some College,3,18,1
+1,1,0,Not Reported,2,4,1
+0,1,1,Some College,3,8,1
+1,1,1,College or Higher,4,9,1
+0,1,0,College or Higher,3,12,1
+0,0,0,Some College,3,4,1
+1,0,0,College or Higher,2,5,0
+1,1,0,Some College,3,8,1
+0,1,1,College or Higher,4,8,1
+1,1,0,College or Higher,3,6,0
+0,1,0,College or Higher,3,3,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,5,9,1
+0,1,0,Not Reported,2,2,1
+1,0,0,College or Higher,3,2,0
+0,0,0,College or Higher,3,5,0
+1,1,0,Not Reported,2,4,1
+0,1,0,Some College,2,1,1
+1,1,0,College or Higher,6,7,0
+0,1,0,Some College,5,26,1
+1,1,0,Some College,6,16,1
+1,1,0,College or Higher,2,6,1
+0,0,1,College or Higher,3,4,0
+1,1,0,Not Reported,2,4,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,3,2,1
+0,0,0,HS Graduate,2,4,0
+1,0,0,College or Higher,2,5,0
+0,0,0,College or Higher,3,6,0
+1,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,5,5,1
+0,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,6,0
+0,1,0,HS Graduate,2,6,0
+0,1,0,College or Higher,6,7,1
+1,1,0,College or Higher,2,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,4,3,1
+0,1,0,HS Graduate,2,6,0
+1,1,0,Some College,3,6,1
+0,1,0,College or Higher,5,10,1
+1,1,0,HS Graduate,3,2,1
+0,1,0,College or Higher,5,8,1
+1,1,0,Some College,3,4,1
+1,1,0,Some College,3,5,1
+0,1,0,Some College,4,5,1
+0,1,0,HS Graduate,2,5,0
+1,0,0,College or Higher,1,9,1
+0,1,0,Some College,4,5,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,4,10,1
+0,0,0,College or Higher,3,6,0
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,5,3,1
+1,0,0,College or Higher,3,5,0
+0,0,0,College or Higher,2,5,0
+0,1,0,College or Higher,2,22,1
+1,1,1,Some College,4,21,1
+1,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,16,1
+1,0,0,HS Graduate,3,4,0
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,2,3,0
+0,1,0,College or Higher,4,6,1
+1,1,0,Some College,4,6,1
+0,1,0,Some College,4,21,1
+1,1,0,College or Higher,1,9,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,11,1
+1,0,0,College or Higher,3,3,1
+0,0,1,College or Higher,2,6,0
+1,1,0,College or Higher,4,11,1
+0,0,0,College or Higher,3,3,1
+1,0,0,College or Higher,2,6,0
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,5,7,1
+0,1,0,Some College,4,2,1
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,3,3,1
+0,1,0,College or Higher,3,6,0
+1,1,0,Some College,3,5,1
+1,1,0,College or Higher,2,4,0
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,3,11,1
+0,1,0,Some College,3,3,1
+1,1,0,Some College,4,6,1
+0,1,1,Some College,4,8,1
+0,0,0,College or Higher,3,6,1
+1,1,0,Some College,3,5,1
+0,0,0,Some College,4,7,0
+0,1,0,College or Higher,3,10,1
+1,0,0,Some College,3,3,1
+1,1,0,College or Higher,4,11,1
+1,1,0,Some College,4,7,0
+0,1,1,Some College,4,21,1
+1,1,0,College or Higher,2,13,1
+0,1,0,College or Higher,1,11,1
+0,0,0,College or Higher,4,20,1
+1,1,0,Some College,3,10,1
+1,0,0,College or Higher,5,10,1
+0,0,0,Some College,3,11,1
+1,0,0,College or Higher,2,9,1
+1,1,0,College or Higher,4,6,1
+1,1,1,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,1,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,18,1
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,2,10,1
+1,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,5,8,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,8,0
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,6,8,0
+1,0,0,College or Higher,4,14,1
+0,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,5,26,0
+0,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,14,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,18,1
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,10,1
+0,0,0,College or Higher,5,8,1
+1,0,0,College or Higher,4,8,0
+1,0,0,College or Higher,6,8,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,2,10,1
+1,1,0,College or Higher,5,8,1
+0,0,0,College or Higher,4,8,0
+1,0,0,College or Higher,6,8,0
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,5,26,0
+1,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,5,26,0
+0,1,0,College or Higher,6,18,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,8,1
+0,0,0,College or Higher,5,26,0
+1,1,0,College or Higher,4,14,1
+0,0,0,College or Higher,6,18,1
+0,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,2,10,1
+1,1,0,College or Higher,4,8,0
+0,1,0,College or Higher,6,8,0
+0,1,0,College or Higher,2,6,1
+1,0,0,HS Graduate,3,8,0
+1,0,0,College or Higher,4,10,1
+0,1,0,HS Dropout,3,10,0
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,2,6,0
+1,1,0,College or Higher,4,7,1
+0,0,0,College or Higher,4,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,4,12,1
+1,1,0,HS Graduate,1,1,1
+0,1,1,College or Higher,3,5,1
+0,1,0,HS Graduate,2,6,1
+0,1,0,Some College,4,7,1
+1,0,0,Not Reported,2,5,1
+1,1,0,HS Graduate,3,6,1
+1,1,0,Some College,3,10,1
+0,1,0,College or Higher,3,5,0
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,4,1
+1,1,0,Some College,2,19,1
+0,1,0,Some College,3,7,1
+1,0,0,College or Higher,3,3,1
+0,1,0,College or Higher,2,5,1
+1,0,0,College or Higher,3,5,0
+1,1,0,College or Higher,2,12,1
+1,1,0,College or Higher,3,5,0
+0,1,0,Some College,4,4,1
+1,1,0,Some College,2,12,1
+0,1,0,Not Reported,2,5,1
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,4,6,1
+1,1,0,Some College,4,6,1
+0,1,0,HS Graduate,3,4,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,4,6,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,3,5,1
+0,1,0,Some College,3,7,1
+1,1,0,College or Higher,1,4,1
+0,0,0,College or Higher,3,6,0
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,14,1
+1,1,1,College or Higher,4,11,1
+1,1,0,College or Higher,2,15,1
+0,1,0,College or Higher,5,14,1
+0,1,0,College or Higher,3,6,1
+0,1,0,Some College,4,9,1
+1,1,0,HS Graduate,3,5,1
+1,1,0,College or Higher,3,7,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,1,4,1
+0,1,0,Some College,3,8,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,9,1
+1,1,0,College or Higher,4,8,1
+0,0,0,College or Higher,2,6,0
+1,1,0,College or Higher,2,5,0
+1,1,0,Some College,3,7,0
+0,1,0,College or Higher,3,6,0
+0,1,0,College or Higher,2,5,1
+1,1,0,College or Higher,4,3,1
+1,1,0,College or Higher,5,7,1
+0,1,0,Some College,2,4,1
+0,1,0,HS Graduate,2,3,0
+1,1,0,College or Higher,3,3,1
+0,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,2,7,1
+0,1,0,Not Reported,2,5,1
+1,1,0,College or Higher,4,7,1
+0,0,0,College or Higher,4,12,1
+1,0,0,College or Higher,4,4,1
+0,0,0,HS Graduate,5,19,1
+1,0,0,College or Higher,2,5,1
+0,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,3,3,1
+0,0,0,HS Dropout,3,4,1
+1,0,0,Some College,3,6,1
+0,0,0,College or Higher,3,6,0
+1,1,0,College or Higher,2,4,0
+0,1,0,HS Dropout,3,4,1
+1,1,0,College or Higher,3,3,1
+0,1,0,College or Higher,2,6,1
+0,0,0,HS Graduate,3,5,0
+1,1,0,College or Higher,4,20,1
+1,0,0,HS Graduate,3,6,1
+0,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,6,1
+1,0,0,Some College,3,6,0
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,5,8,1
+0,0,0,College or Higher,3,4,0
+0,1,1,College or Higher,3,3,1
+1,1,1,College or Higher,2,2,0
+1,1,0,College or Higher,3,6,0
+0,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,2,6,0
+1,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,14,1
+1,1,0,College or Higher,2,6,1
+0,1,1,Some College,3,6,1
+1,0,0,HS Graduate,2,5,0
+0,1,0,Some College,4,20,1
+1,1,0,College or Higher,4,5,1
+0,1,0,HS Graduate,3,3,1
+1,1,0,Some College,3,15,1
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,3,5,1
+1,1,0,College or Higher,3,4,1
+1,1,0,Some College,4,5,1
+0,0,0,Not Reported,2,4,1
+1,0,0,College or Higher,3,4,0
+0,1,0,HS Graduate,3,3,1
+1,1,0,Some College,4,10,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,3,5,0
+1,1,0,College or Higher,3,6,0
+0,1,0,Some College,3,16,1
+0,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,8,1
+1,1,0,Some College,3,8,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,3,3,1
+1,1,0,Some College,4,4,1
+0,1,0,HS Graduate,2,5,1
+1,1,0,Some College,3,6,1
+0,1,1,Some College,3,16,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,3,6,0
+1,0,0,College or Higher,2,5,1
+1,1,0,Some College,4,2,1
+1,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,2,1
+0,0,0,College or Higher,2,6,0
+1,1,0,Some College,3,3,1
+0,1,0,Some College,3,16,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,4,11,1
+0,1,0,College or Higher,5,7,1
+1,0,0,HS Graduate,2,6,0
+0,0,0,College or Higher,3,2,1
+0,1,0,College or Higher,4,4,1
+1,1,0,Some College,4,4,1
+0,1,1,College or Higher,3,7,1
+0,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,3,6,1
+1,1,0,Some College,3,5,1
+0,1,1,College or Higher,1,6,0
+0,0,1,College or Higher,3,6,1
+1,0,1,Some College,2,8,0
+1,1,1,Some College,3,11,1
+0,1,0,College or Higher,4,14,1
+1,1,0,HS Graduate,3,7,1
+0,1,0,HS Graduate,2,6,1
+1,1,0,College or Higher,3,8,1
+1,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,3,5,1
+0,0,0,Some College,2,8,0
+0,1,0,College or Higher,3,4,1
+0,0,0,College or Higher,5,7,1
+1,1,0,HS Graduate,1,3,1
+1,1,1,Some College,2,8,0
+1,1,1,College or Higher,1,8,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,14,1
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,5,26,0
+1,1,0,HS Graduate,4,16,1
+0,1,0,Some College,2,1,1
+0,1,0,Some College,5,26,1
+1,1,0,Some College,5,5,0
+0,0,0,HS Graduate,3,8,0
+0,0,0,College or Higher,4,10,1
+1,0,0,HS Dropout,3,10,0
+1,0,0,College or Higher,2,6,1
+1,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,0,1,College or Higher,2,10,1
+0,0,1,College or Higher,4,8,0
+1,0,1,College or Higher,6,8,0
+1,1,1,College or Higher,5,8,1
+0,1,0,Some College,2,2,0
+1,1,0,Some College,5,13,1
+0,1,0,Some College,3,14,1
+1,1,0,HS Graduate,5,18,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,Some College,5,13,1
+1,1,0,Some College,3,13,1
+0,1,0,College or Higher,4,11,1
+0,0,1,College or Higher,4,2,1
+1,1,1,College or Higher,4,6,1
+0,0,0,College or Higher,3,7,0
+1,0,1,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,0
+1,0,0,College or Higher,4,8,0
+1,1,0,College or Higher,2,10,1
+0,0,0,College or Higher,5,8,1
+0,1,0,Some College,3,13,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,5,13,1
+1,1,0,HS Graduate,4,16,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+1,1,1,College or Higher,4,2,1
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,20,0
+1,0,0,College or Higher,5,26,0
+0,0,0,College or Higher,5,14,1
+1,1,0,College or Higher,5,10,1
+1,1,0,Some College,4,6,1
+0,1,0,HS Graduate,2,6,1
+0,1,0,Some College,3,6,1
+1,1,0,Some College,3,6,1
+0,1,0,College or Higher,3,11,1
+0,1,0,College or Higher,3,5,0
+0,1,0,Some College,2,10,1
+1,1,0,College or Higher,1,12,1
+1,1,0,Some College,3,9,1
+1,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,1,4,1
+0,1,0,Some College,4,4,1
+1,1,0,College or Higher,2,4,1
+1,1,0,Some College,3,4,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,8,1
+0,1,1,College or Higher,2,6,0
+1,1,0,College or Higher,3,3,1
+1,1,0,College or Higher,3,4,1
+0,1,1,HS Graduate,2,7,0
+0,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,3,5,0
+1,1,0,Some College,3,8,1
+0,1,0,College or Higher,3,2,1
+0,1,0,College or Higher,3,6,1
+1,1,0,HS Graduate,2,3,0
+1,1,0,College or Higher,3,6,1
+1,0,0,College or Higher,3,6,0
+0,1,0,Some College,2,12,1
+0,1,0,College or Higher,5,13,1
+1,1,0,HS Graduate,1,11,1
+1,1,0,Some College,3,13,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,4,21,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,11,1
+0,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,4,15,1
+0,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,2,5,1
+1,0,0,Some College,3,7,1
+1,0,0,HS Dropout,3,4,1
+0,0,0,College or Higher,3,7,0
+0,1,0,Some College,2,4,1
+1,1,0,College or Higher,4,21,1
+1,1,0,College or Higher,2,13,1
+1,1,0,Some College,4,9,1
+0,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,3,4,1
+1,1,0,College or Higher,5,5,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,5,1
+0,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,3,5,0
+1,1,0,College or Higher,3,4,1
+1,0,0,Not Reported,2,5,1
+0,1,0,College or Higher,4,6,1
+1,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,7,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,6,5,1
+0,1,0,College or Higher,2,4,1
+1,1,0,College or Higher,5,8,1
+0,1,0,HS Graduate,2,6,0
+1,0,1,College or Higher,3,2,1
+1,0,0,College or Higher,2,6,0
+0,0,1,Some College,3,6,1
+0,0,0,College or Higher,3,3,1
+0,1,1,College or Higher,2,4,1
+1,1,1,College or Higher,4,2,1
+0,1,0,College or Higher,4,5,1
+1,1,1,College or Higher,5,4,1
+1,0,0,HS Graduate,3,5,0
+1,1,0,College or Higher,2,6,1
+0,0,0,College or Higher,3,4,0
+0,0,0,College or Higher,2,5,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,HS Graduate,2,5,0
+0,1,0,College or Higher,5,6,1
+1,1,0,Some College,3,5,1
+0,0,0,HS Graduate,3,4,0
+0,1,0,College or Higher,5,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,0,0,HS Graduate,3,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,6,7,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,2,6,1
+1,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,14,1
+0,0,0,College or Higher,3,3,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,6,4,1
+1,1,0,College or Higher,2,3,1
+0,1,0,HS Graduate,3,2,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,3,2,1
+1,1,0,Some College,4,5,1
+0,1,0,Some College,4,20,1
+1,1,0,Some College,3,2,1
+1,1,0,College or Higher,4,5,1
+1,0,1,College or Higher,3,2,1
+0,0,1,College or Higher,2,6,0
+0,1,0,College or Higher,3,3,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,4,1
+0,1,0,Some College,3,3,1
+0,1,0,College or Higher,3,4,0
+1,1,0,College or Higher,3,11,1
+0,1,1,College or Higher,2,15,1
+1,1,0,HS Graduate,2,14,0
+0,1,1,College or Higher,4,10,1
+1,0,0,Not Reported,2,4,1
+0,1,0,Some College,3,4,1
+0,1,0,HS Graduate,2,5,1
+1,1,0,Some College,3,3,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,5,7,1
+0,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,11,1
+1,1,0,Some College,3,5,1
+1,1,0,College or Higher,2,15,1
+0,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,3,6,0
+1,0,0,College or Higher,1,3,1
+0,1,0,College or Higher,3,3,1
+1,1,0,College or Higher,2,8,0
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,16,1
+1,1,0,College or Higher,4,4,1
+0,1,0,Some College,3,3,1
+0,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,3,5,0
+1,0,0,College or Higher,3,4,0
+1,1,0,Some College,4,4,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,2,12,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,4,6,1
+1,1,0,College or Higher,4,9,1
+1,0,0,College or Higher,3,19,1
+1,1,0,HS Graduate,3,1,0
+0,1,0,Some College,3,6,1
+0,1,0,College or Higher,5,5,1
+1,0,0,College or Higher,5,21,1
+1,1,0,Some College,4,21,1
+0,1,1,College or Higher,4,20,1
+0,1,0,Some College,3,19,1
+0,1,1,Some College,4,10,1
+1,1,1,College or Higher,5,8,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,8,0
+1,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,5,8,1
+1,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,8,0
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,5,26,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+0,1,0,Some College,5,4,1
+0,1,0,College or Higher,5,14,1
+1,1,1,Some College,2,2,1
+1,1,0,HS Graduate,7,18,1
+0,0,0,College or Higher,4,8,1
+0,0,0,College or Higher,6,18,1
+1,1,0,College or Higher,5,26,0
+1,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,4,2,1
+0,1,1,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,11,1
+1,1,0,Some College,3,7,1
+0,1,0,Some College,6,16,1
+1,1,0,Some College,5,26,1
+1,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,7,0
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,8,1
+1,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,5,26,0
+0,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,14,1
+1,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,6,9,1
+0,1,0,College or Higher,6,7,0
+0,1,0,Some College,5,26,1
+1,1,0,Some College,5,13,1
+0,0,1,College or Higher,4,8,1
+1,1,1,College or Higher,5,26,0
+0,0,0,College or Higher,4,14,1
+1,1,1,College or Higher,6,18,1
+0,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,4,1
+1,1,1,College or Higher,4,8,1
+0,1,1,College or Higher,4,8,1
+1,1,0,College or Higher,3,4,1
+0,1,1,College or Higher,3,4,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,Some College,3,5,1
+0,1,0,HS Dropout,3,4,1
+1,0,0,College or Higher,3,2,1
+0,0,0,HS Graduate,2,2,0
+1,0,0,College or Higher,3,4,1
+0,1,0,College or Higher,4,15,1
+0,1,0,Some College,3,6,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,3,7,1
+1,1,0,Some College,4,5,1
+0,1,0,College or Higher,2,4,1
+1,1,0,HS Graduate,3,4,1
+0,0,0,HS Graduate,3,6,0
+1,0,1,HS Dropout,3,4,1
+0,1,0,College or Higher,3,6,0
+1,1,0,HS Dropout,3,4,1
+0,1,0,College or Higher,3,3,1
+1,0,0,College or Higher,2,5,1
+0,1,0,Some College,2,13,1
+0,1,0,Some College,3,15,1
+1,1,0,College or Higher,3,14,1
+1,1,0,College or Higher,4,15,1
+1,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,2,25,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,3,8,1
+0,1,0,College or Higher,4,8,1
+0,1,0,Some College,3,8,1
+1,1,0,Some College,3,9,1
+0,1,0,College or Higher,3,14,1
+1,1,0,Some College,2,12,1
+1,1,0,College or Higher,2,11,1
+0,1,0,College or Higher,3,10,1
+1,1,0,Some College,4,6,1
+0,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,7,1
+1,1,0,Some College,2,7,1
+1,0,0,College or Higher,3,5,0
+1,1,0,College or Higher,3,3,1
+0,1,0,Some College,3,21,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,5,0
+0,1,0,College or Higher,3,10,1
+1,0,0,HS Dropout,3,4,1
+1,1,0,College or Higher,4,21,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,2,5,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,5,7,1
+0,0,0,College or Higher,3,5,1
+1,0,0,College or Higher,5,5,1
+0,0,0,College or Higher,2,6,1
+0,0,0,College or Higher,2,4,0
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,2,1
+0,0,1,College or Higher,4,11,1
+1,0,0,College or Higher,5,11,1
+0,1,0,Some College,2,1,1
+1,1,0,HS Graduate,5,18,0
+0,1,0,College or Higher,6,9,1
+1,1,0,Some College,2,2,0
+0,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,4,0
+1,1,0,Not Reported,2,4,1
+0,1,0,College or Higher,2,5,1
+1,1,0,College or Higher,5,9,1
+1,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,6,4,1
+0,1,0,College or Higher,2,3,1
+0,0,0,HS Dropout,3,4,1
+1,1,0,College or Higher,3,1,1
+1,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,5,5,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,2,4,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,3,3,1
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,7,1
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,2,5,1
+0,1,0,College or Higher,3,2,1
+0,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,5,8,1
+0,1,0,College or Higher,4,5,1
+1,1,0,Some College,3,4,1
+0,1,0,Some College,3,2,1
+1,1,0,Some College,4,5,1
+0,1,0,Some College,4,20,1
+1,0,0,Some College,3,6,1
+1,1,0,College or Higher,4,5,1
+0,0,0,HS Graduate,3,4,0
+0,1,0,College or Higher,3,3,1
+1,1,0,Some College,3,2,1
+0,1,0,HS Graduate,3,3,1
+0,1,0,Some College,3,5,1
+1,1,0,Some College,3,16,1
+1,1,0,Some College,4,6,1
+1,1,0,College or Higher,5,7,1
+0,1,0,College or Higher,4,12,1
+0,0,0,Some College,3,6,0
+1,0,0,College or Higher,3,5,0
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,3,3,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+0,1,0,Some College,4,21,1
+0,1,0,Some College,4,6,1
+1,1,0,Some College,3,3,1
+0,0,0,HS Graduate,3,6,0
+0,1,0,College or Higher,4,5,1
+1,1,0,Some College,3,4,1
+1,1,0,College or Higher,2,5,0
+1,1,0,College or Higher,4,4,1
+0,1,0,College or Higher,3,4,1
+0,0,0,Some College,2,3,0
+1,1,0,College or Higher,1,9,1
+0,1,0,Some College,4,2,1
+0,1,0,College or Higher,4,4,1
+1,1,0,College or Higher,4,11,1
+1,1,0,College or Higher,5,7,1
+0,1,0,Some College,4,4,1
+1,1,0,HS Graduate,5,20,1
+0,1,0,HS Graduate,3,4,1
+1,0,0,College or Higher,5,7,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,5,12,0
+0,1,0,Some College,4,9,1
+0,1,0,College or Higher,2,5,1
+1,1,0,Some College,2,10,0
+1,1,0,College or Higher,2,15,1
+1,1,0,Some College,4,4,1
+0,1,1,College or Higher,1,5,1
+0,1,0,College or Higher,3,10,1
+1,1,0,College or Higher,3,9,1
+1,0,1,College or Higher,5,4,1
+0,1,0,College or Higher,5,26,0
+0,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,14,1
+0,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,3,13,1
+1,0,0,College or Higher,6,18,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,5,8,0
+1,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,20,0
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,5,26,0
+0,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,7,5,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,18,1
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,7,0
+1,1,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,8,1
+1,0,0,College or Higher,4,14,1
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,4,14,1
+0,1,0,College or Higher,5,26,0
+1,1,0,College or Higher,6,18,1
+1,0,0,College or Higher,4,8,1
+1,1,0,College or Higher,5,8,1
+0,0,0,College or Higher,6,8,0
+1,0,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,8,0
+0,1,0,College or Higher,4,14,1
+1,1,1,College or Higher,5,26,0
+0,1,0,College or Higher,4,8,1
+1,1,0,College or Higher,6,18,1
+0,1,0,College or Higher,4,14,1
+1,1,0,College or Higher,6,18,1
+1,0,0,College or Higher,5,26,0
+0,1,0,College or Higher,4,8,1
+0,1,0,Some College,5,5,0
+0,1,1,College or Higher,6,9,1
+1,1,0,HS Graduate,4,19,0
+1,1,0,Some College,5,13,1
+0,1,0,College or Higher,3,13,1
+1,1,0,College or Higher,5,8,0
+0,0,0,College or Higher,7,5,1
+1,0,0,College or Higher,4,20,0
+0,1,0,Some College,3,4,1
+0,1,0,College or Higher,5,14,1
+1,1,0,College or Higher,6,9,1
+1,1,0,Some College,5,5,0
+0,0,0,College or Higher,4,2,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,20,0
+1,0,0,College or Higher,7,5,1
+1,1,0,College or Higher,5,8,0
+0,1,0,College or Higher,3,13,1
+1,1,0,College or Higher,4,11,1
+0,1,0,Some College,3,7,1
+1,1,0,Some College,5,26,1
+0,1,0,College or Higher,6,9,1
+0,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,7,1
+1,0,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,4,1
+1,1,0,Some College,2,7,1
+1,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,4,11,1
+0,1,0,Some College,4,5,1
+0,0,0,HS Graduate,2,2,0
+0,1,0,HS Graduate,1,6,1
+1,1,0,College or Higher,3,2,1
+1,1,0,Some College,2,7,1
+0,1,0,College or Higher,3,3,1
+1,1,0,Some College,3,8,1
+1,0,0,HS Dropout,3,4,1
+0,1,0,College or Higher,4,7,1
+0,1,0,College or Higher,3,5,1
+1,1,0,Some College,3,8,1
+0,1,0,College or Higher,1,4,1
+1,1,0,Some College,2,4,1
+0,1,0,Some College,3,4,1
+1,1,0,College or Higher,3,4,1
+0,1,0,College or Higher,4,5,1
+1,1,0,HS Graduate,2,4,1
+1,0,0,College or Higher,2,5,0
+1,0,0,College or Higher,3,3,1
+0,1,0,College or Higher,3,3,1
+0,1,0,HS Dropout,3,4,1
+0,1,0,College or Higher,2,5,1
+0,1,0,College or Higher,3,3,0
+0,1,0,Some College,4,21,1
+1,0,0,HS Dropout,3,4,1
+1,1,0,Some College,3,22,1
+1,1,0,College or Higher,3,6,0
+1,1,0,College or Higher,3,7,1
+0,1,0,Some College,2,6,1
+1,1,0,College or Higher,3,8,1
+0,1,0,Some College,2,8,1
+1,1,0,College or Higher,3,6,1
+0,1,0,Some College,3,9,1
+0,1,0,Some College,3,8,1
+1,1,0,College or Higher,4,8,1
+0,1,0,College or Higher,5,13,1
+1,1,1,College or Higher,5,7,1
+1,1,1,College or Higher,2,19,1
+0,1,0,College or Higher,4,21,1
+0,1,0,College or Higher,4,7,1
+0,1,0,Some College,2,9,1
+1,1,0,College or Higher,5,7,1
+1,1,0,College or Higher,3,6,1
+1,1,0,Some College,2,7,1
+0,0,0,College or Higher,3,6,0
+0,1,0,Some College,4,6,1
+0,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,4,5,1
+1,0,0,Not Reported,2,4,1
+1,1,0,Some College,2,4,1
+0,1,0,College or Higher,2,23,1
+1,1,0,College or Higher,4,21,1
+0,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,4,6,0
+1,1,0,College or Higher,2,6,1
+0,1,0,College or Higher,3,6,1
+1,1,0,Some College,3,4,1
+1,1,0,Some College,3,5,1
+0,1,1,College or Higher,4,6,1
+1,1,0,HS Graduate,2,6,1
+0,1,1,College or Higher,3,7,1
+1,0,0,College or Higher,4,6,1
+0,0,1,College or Higher,2,4,1
+0,0,0,Some College,5,4,1
+1,0,1,College or Higher,6,5,1
+0,0,0,HS Graduate,4,5,0
+0,0,0,College or Higher,3,10,1
+1,0,0,HS Graduate,4,6,1
+1,0,0,College or Higher,3,6,1
+1,0,0,Some College,3,6,1
+0,0,0,HS Graduate,3,7,1
+1,1,0,College or Higher,3,6,0
+0,1,0,HS Dropout,3,4,1
+0,1,0,Some College,3,4,1
+0,1,0,College or Higher,5,14,1
+1,1,0,College or Higher,4,11,1
+1,1,0,Some College,3,14,1
+1,1,0,College or Higher,4,3,1
+0,1,0,College or Higher,2,3,0
+0,1,0,College or Higher,6,6,1
+0,1,0,College or Higher,2,3,1
+1,1,0,College or Higher,2,3,0
+1,1,0,College or Higher,4,7,1
+1,1,0,College or Higher,5,4,1
+0,1,1,College or Higher,6,4,1
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,2,1
+1,1,1,College or Higher,4,5,1
+1,0,0,HS Graduate,3,5,0
+1,1,0,College or Higher,2,7,1
+0,1,0,College or Higher,2,15,1
+0,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,4,12,1
+0,1,0,HS Graduate,2,7,0
+1,1,1,College or Higher,5,6,1
+0,1,1,College or Higher,4,5,1
+1,1,1,College or Higher,4,7,1
+1,1,0,Some College,3,6,1
+0,1,1,College or Higher,2,6,1
+1,1,0,Some College,3,2,1
+0,1,0,Some College,4,21,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,3,3,1
+0,1,0,Some College,3,16,1
+0,1,0,College or Higher,1,6,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,Some College,4,5,1
+1,1,0,College or Higher,1,1,1
+1,1,0,Some College,3,3,1
+0,1,0,College or Higher,2,12,1
+1,1,0,College or Higher,3,7,1
+0,1,0,College or Higher,3,4,1
+1,1,0,Some College,3,5,1
+0,1,0,College or Higher,4,6,1
+0,1,0,College or Higher,1,3,1
+0,1,0,Some College,3,3,1
+1,1,1,College or Higher,2,5,0
+1,1,0,College or Higher,5,7,1
+1,1,0,College or Higher,4,12,1
+1,1,0,College or Higher,3,10,1
+0,1,0,Some College,3,3,1
+0,1,0,College or Higher,4,9,1
+1,1,0,College or Higher,4,5,1
+0,1,0,College or Higher,4,5,1
+1,1,0,College or Higher,4,8,1
+0,1,0,Some College,3,5,1
+0,0,0,HS Graduate,2,6,0
+1,1,0,College or Higher,3,2,1
+1,1,0,College or Higher,4,5,1
+0,1,0,Some College,4,6,1
+1,1,0,HS Graduate,3,3,1
+0,1,0,Some College,2,3,0
+1,0,0,College or Higher,1,9,1
+1,1,0,College or Higher,4,8,1
+0,1,0,Some College,4,8,1
+0,1,0,Some College,4,8,1
+1,1,0,Some College,3,8,1
+0,0,0,College or Higher,3,2,1
+0,1,0,College or Higher,2,25,1
+1,1,0,College or Higher,3,6,1
+1,1,0,College or Higher,2,2,0
+0,0,1,Some College,3,18,1
+1,1,1,College or Higher,4,8,1
+0,1,0,College or Higher,3,6,1
+0,1,0,College or Higher,2,15,1
+1,1,0,College or Higher,5,13,1
+1,1,0,College or Higher,3,5,1
+0,1,1,College or Higher,3,12,1
+1,1,0,College or Higher,2,14,0
+0,0,0,College or Higher,1,6,1
+0,0,0,HS Graduate,3,5,0
+1,0,0,HS Graduate,5,8,1
+1,0,0,Some College,3,10,0
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,2,10,1
+0,1,0,College or Higher,4,2,1
+0,0,0,College or Higher,4,2,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,8,0
+0,1,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,6,1
+1,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,8,0
+0,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,6,8,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,6,8,1
+1,0,0,College or Higher,5,8,1
+0,1,0,College or Higher,3,7,0
+0,1,0,College or Higher,4,2,1
+1,1,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,6,1
+0,1,0,College or Higher,6,9,1
+1,1,0,Some College,3,7,1
+0,1,0,College or Higher,4,11,1
+1,1,0,HS Graduate,4,16,1
+0,0,1,College or Higher,4,2,1
+1,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,6,1
+0,0,1,College or Higher,3,7,0
+0,1,0,Some College,3,4,1
+0,1,0,Some College,3,4,1
+1,1,0,Some College,5,5,0
+1,1,0,College or Higher,5,14,1
+0,0,0,College or Higher,4,6,1
+1,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+0,0,0,College or Higher,4,6,1
+0,0,0,College or Higher,4,2,1
+1,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,6,8,1
+1,1,0,Some College,6,16,1
+0,1,1,College or Higher,4,11,1
+1,1,0,Some College,2,2,1
+0,1,0,College or Higher,1,5,1
+0,1,1,College or Higher,4,2,1
+0,1,1,College or Higher,3,7,0
+1,1,1,College or Higher,6,8,1
+1,0,0,College or Higher,4,6,1
+1,1,0,Some College,5,4,1
+0,1,0,HS Graduate,4,19,0
+0,1,0,Some College,5,13,1
+1,1,0,Some College,7,18,1
+0,0,0,College or Higher,6,8,1
+0,0,0,College or Higher,3,7,0
+1,0,0,College or Higher,4,6,1
+1,1,0,College or Higher,4,2,1
+1,0,0,College or Higher,4,2,1
+1,1,1,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+0,1,1,College or Higher,3,7,0
+0,1,0,Some College,5,13,1
+0,1,0,HS Graduate,4,16,1
+1,1,0,Some College,5,26,1
+1,1,0,Some College,2,1,1
+1,1,0,College or Higher,4,6,1
+0,0,0,College or Higher,6,8,1
+1,1,0,College or Higher,4,2,1
+0,1,0,College or Higher,3,7,0

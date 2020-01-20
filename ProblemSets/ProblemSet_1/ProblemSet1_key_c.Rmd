@@ -1,0 +1,296 @@
+---
+title: 'Problem Set 1: Key to Computational Problems'
+author: "| Amna Javed \n| EC 320: Introduction to Econometrics\n| University of Oregon\n"
+date: "Winter 2020"
+output:
+  html_document:
+    highlight: tango
+    includes:
+      after_body: 
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+  pdf_document:
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = F)
+```
+
+## Preliminaries
+
+```{r}
+library(pacman)
+p_load(tidyverse)
+
+election_2016 <- read_csv("election_2016.csv")
+
+# Take a look at the data
+election_2016
+```
+
+## Exercise 1 
+
+*Reduce your data set to include only those regions with a population of 50,000 or more.*
+
+```{r}
+# drop observations with population less than 50,000
+election_2016 <- election_2016[!(election_2016$population<50000),]
+  
+```
+
+## Exercise 2
+
+*Generate new variables that give the percentage of votes cast for each candidate using the* [`mutate`](https://dplyr.tidyverse.org/reference/mutate.html) *function. With these new variables, generate a third variable called* `trump_margin` *that gives Trump's "margin of victory" in each county. (For counties that Clinton won, the value of* `trump_margin` *will be negative.)*
+
+```{r}
+# generate 3 new variables
+# note: the 3rd variable is a function of the first two
+election_2016 <- election_2016 %>% 
+  mutate(trump_pct = trump/totalvotes*100,
+         clinton_pct = clinton/totalvotes*100,
+         trump_margin = trump_pct - clinton_pct)
+```
+
+## Exercise 3
+
+*Produce summary statistics (min, max, mean, median, standard deviation, and the number of observations) for* `trump_margin`, `white`, `poverty`, *and* `population` *using the* [`summarize`](https://dplyr.tidyverse.org/reference/summarise.html) *function.*
+
+You can use one of two approaches.
+
+**Approach 1:** Brute force.
+
+```{r}
+# the "variable" variable is for making one nice-looking table later
+trump_margin_summary <- election_2016 %>% 
+  summarize(variable = "trump_margin",
+            min = min(trump_margin), 
+            max = max(trump_margin), 
+            mean = mean(trump_margin), 
+            median = median(trump_margin), 
+            sd = sd(trump_margin), 
+            n = n())
+
+white_summary <- election_2016 %>% 
+  summarize(variable = "white",
+            min = min(white), 
+            max = max(white), 
+            mean = mean(white), 
+            median = median(white), 
+            sd = sd(white), 
+            n = n())
+
+poverty_summary <- election_2016 %>% 
+  summarize(variable = "poverty",
+            min = min(poverty), 
+            max = max(poverty), 
+            mean = mean(poverty), 
+            median = median(poverty), 
+            sd = sd(poverty), 
+            n = n())
+
+population_summary <- election_2016 %>% 
+  summarize(variable = "population",
+            min = min(population), 
+            max = max(population), 
+            mean = mean(population), 
+            median = median(population), 
+            sd = sd(population), 
+            n = n())
+
+# generate a nice table of summary stats (bind_rows "stacks" tibbles)
+summary_stats <- bind_rows(trump_margin_summary, 
+                           white_summary, 
+                           poverty_summary, 
+                           population_summary)
+
+# look at your stats
+summary_stats
+```
+
+After doing this, you might want to remove clutter from your global environment by running `rm(trump_margin_summary, white_summary, poverty_summary, population_summary)`. The `rm()` function removes unnecessary objects from the global environment. You don't have to do this, but keeping a relatively clean global environment can make your life easier.
+
+**Approach 2:** Define and use a function.
+
+```{r}
+# it's a good idea to define functions for repetitive tasks
+summary_fun <- function(data, x){
+  data %>% 
+    summarize(min = min(x), 
+              max = max(x), 
+              mean = mean(x), 
+              median = median(x), 
+              sd = sd(x), 
+              n = n()
+              ) 
+}
+
+# generate a nice table of summary stats (bind_rows "stacks" tibbles)
+summary_stats <- bind_rows(
+  summary_fun(election_2016, election_2016$trump_margin) %>% 
+    mutate(variable = "trump_margin"),
+  summary_fun(election_2016, election_2016$white) %>% 
+    mutate(variable = "white"),
+  summary_fun(election_2016, election_2016$poverty) %>% 
+    mutate(variable = "poverty"),
+  summary_fun(election_2016, election_2016$population) %>% 
+    mutate(variable = "population")
+)
+
+# look at your stats
+summary_stats
+```
+
+
+### Part A
+
+*What is Trump's average vote margin?*
+
+```{r}
+election_2016 %>% 
+  summarize(mean = mean(trump_margin))
+```
+
+Trump's average vote margin is approximately 14.1 percent.
+
+
+### Part B
+
+*What is the median poverty rate?*
+
+```{r}
+election_2016 %>% 
+  summarize(median = median(poverty))
+```
+
+The median poverty rate is approximately 13.6 percent.
+
+### Part C
+
+*How many people live in the least populous county? How many live in the most populous county?*
+
+```{r}
+election_2016 %>% 
+  summarize(min = min(population), 
+            max = max(population))
+```
+
+10,150,558 people live in the most populous county (in case you were wondering, it's Los Angeles County, CA). 50,058 people live in the least populous county in our data. Note that we reduced our data by dropping counties with a population less than 50,000 people so this is not the actual least populated county from the 2016 election.  
+
+## Exercise 4
+
+*Create a histogram of Trump's margin of victory. Which candidate won more counties? Is it necessarily the case that this candidate won more votes nationally? Hint: Look at a histogram of county population, too.*
+
+```{r}
+gg <- election_2016 %>% 
+  ggplot(aes(x = trump_margin)) +
+  geom_histogram(color="black", fill="cyan4") 
+
+# The code below improves the visual aspects of the graph
+gg <- gg +
+  theme_classic() + # cleans up the background
+  labs(x = "Trump's margin of victory", y = "Count") # change the labels 
+
+gg
+```
+
+While Trump appears to have won most counties, many of those counties have relatively small populations (see below). It happens to be the case that Clinton won more votes nationally.
+
+```{r}
+gg_pop <- election_2016 %>% 
+  ggplot(aes(x = population)) +
+  geom_histogram(bins = 50, color="black", fill="cyan4") 
+
+# The code below improves the visual aspects of the graph
+gg_pop  <- gg_pop +
+  theme_classic() + # cleans up the background
+  labs(x = "Population", y = "Count") # change the labels 
+
+gg_pop
+```
+
+## Exercise 5
+
+*Create a scatter plot with* `trump_margin` *on the* $Y$*-axis and* `poverty` *on the* $X$*-axis. Does support for Trump appear positively or negatively correlated with poverty rates? Use the* [`cor`](https://www.rdocumentation.org/packages/stats/versions/3.6.1/topics/cor) *function to calculate the correlation coefficient. Interpret your result.*
+
+```{r}
+gg_pov <- election_2016 %>% 
+  ggplot(aes(x = poverty, y = trump_margin)) +
+  geom_point(color = "cyan4") 
+
+# The code below improves the visual aspects of the graph
+gg_pov <- gg_pov +
+  theme_classic() + # cleans up the background
+  labs(y = "Trump's margin of victory", x = "Poverty") # change the labels 
+
+gg_pov
+```
+
+By looking at the scatter plot alone, it is hard to tell whether poverty and support for Trump are correlated. The next step is to estimate the correlation coefficient:
+
+```{r}
+cor(election_2016$poverty, election_2016$trump_margin) 
+```
+
+The correlation coefficient of -0.09 tells us that there is a negative, albeit weak, correlation between poverty rates and support for Trump in our sample of counties.
+
+## Exercise 6
+
+*Create a scatter plot with* `trump_margin` *on the* $Y$*-axis and* `poverty` *on the* $X$*-axis. Does support for Trump appear positively or negatively correlated with the percentage of white voters? Use the* `cor` *function to calculate the correlation coefficient. Interpret your result.*
+
+```{r}
+gg_pov <- election_2016 %>% 
+  ggplot(aes(x = white, y = trump_margin)) +
+  geom_point(color = "cyan4") 
+
+gg_pov <- gg_pov +
+  theme_classic() + # cleans up the background
+  labs(y = "Trump's margin of victory", x = "Race = white") # change the labels 
+
+gg_pov
+```
+
+The fraction of white voters appears positively correlated with Trump's vote margin. To verify, we can once again estimate the correlation coefficient:
+
+```{r}
+cor(election_2016$white, election_2016$trump_margin)
+```
+
+The correlation coefficient of 0.56 verifies that there is a positive correlation between the fraction of white voters in a county and support for Trump.
+
+## Exercise 7
+
+*Using* [`group_by`](https://dplyr.tidyverse.org/reference/group_by.html) *and* `summarize`, *aggregate the county-level data on* `white`, `poverty`, *and* `population` *to the state level. The first two variables are rates. To obtain accurate state-level rates, you need to account for differences in population across counties. You can do this by using the* [`weighted.mean`](https://www.rdocumentation.org/packages/stats/versions/3.6.1/topics/weighted.mean) *function inside* `summarize`. *For population, you can use the* `sum` *function. Your new* [`tibble`](https://tibble.tidyverse.org) *should have 50 rows.*
+
+```{r}
+# aggregate to the state level
+state_data <- election_2016 %>% 
+  group_by(stname) %>% 
+  summarize(poverty = weighted.mean(x = poverty, w = population),
+            white = weighted.mean(x = white, w = population),
+            population = sum(population))
+
+state_data
+```
+
+
+## Exercise 8
+
+*Using the state-level data, create a scatter plot with* `poverty` *on the* $Y$*-axis and* `white` *on the* $X$*-axis. To illustrate differences in population across states, vary the size of each point by population. You can this by including* `size = population` *in the* [`aes`](https://ggplot2.tidyverse.org/reference/aes.html) *function of* [`ggplot`](https://ggplot2.tidyverse.org/reference/ggplot.html). *Describe any patterns you see.*
+
+```{r}
+# a "weighted" scatterplot
+s_pov <- state_data %>% 
+  ggplot(aes(x = white, y = poverty, size = population)) +
+  geom_point(color = "cyan4") 
+
+s_pov <- s_pov +
+  theme_classic() + # cleans up the background
+  labs(y = "Poverty", x = "Race = white", size = "Population") # change the labels 
+s_pov
+```
+
+We will accept any reasonable observations of patterns in the data. For example, there appears to be a negative relationship between poverty rates and the fraction of white voters in our sample. It also appears that the most populous states tend to have smaller fractions of white voters (*e.g.,* CA, TX, and NY). Note that our sample already overestimates population relative to the original data. 

@@ -1,0 +1,216 @@
+
+
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{amsmath , amsthm , amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{authblk}
+\usepackage{setspace}
+
+\usepackage{lscape} %this is to make the landscape of individual table pages.
+\usepackage{enumitem, float, booktabs}
+\setcounter{MaxMatrixCols}{10}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\setlength{\parindent}{0.5in}
+\geometry{left=.8in,right=1in,top=1in,bottom=1in}
+\renewcommand{\baselinestretch}{2}
+\begin{document}
+
+\begin{onehalfspacing}
+
+\begin{center}
+\textbf{EC 320: Introduction to Econometrics} \bigskip
+
+\textbf{Problem Set\bigskip\ 2}
+\bigskip
+\end{center}
+
+
+
+\noindent \textbf{Due: On canvas, January 27th at 5 pm}
+
+\bigskip
+
+\noindent \textbf{Learning Outcomes:}
+\begin{itemize}
+\item Understanding individual and average treatment effects
+\item Understanding the fundamental problem of econometrics and causality
+\item Run regressions and interpret results
+\end{itemize}
+
+\bigskip
+
+
+\noindent \textbf{Checklist Before Handing In:}
+\begin{itemize}
+\item Did you answer all questions?
+\item Did you answer all parts for each question?
+\item Were your answers too vague? If so, make them more precise to make sure they really answer the question being asked.
+\end{itemize}
+
+\bigskip
+
+\noindent {\textbf{Instructions:}}\ You are encouraged to work with other students in the class, but you must provide original responses. To receive full credit, justify your answers and list your collaborators. For full credit on the computational exercises, include your code and output in addition to your answers. You will turn in digital copies of your responses on Canvas. Please note the list of acceptable file types on the submission page.  \\
+\vspace{0.1in}
+
+Name: 			\\
+\vspace{0.1in}
+
+Collaborator 1: \\
+
+\vspace{0.1in}
+
+Collaborator 2: \\
+			
+\vspace{0.1in}
+
+Collaborator 3: 			
+
+\newpage
+
+
+\begin{center}
+\textbf{Analytical Questions} \bigskip
+\end{center}
+
+
+\begin{enumerate}
+	
+\item Consider hypothetical data on the counter factual outcomes of 6 individuals:
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{c c c c}
+		\toprule
+		$i$ & $\text{Treatment}_i$ & $Y_{1,i}$ & $Y_{0,i}$  \\ \toprule
+		1 & 0 & 4 & 8 \\
+		2 & 0 & 9 & 9 \\
+		3 & 0 & 3 & 7 \\
+		4 & 1 & 10 & 14 \\
+		5 & 1 & 11 & 12 \\
+		6 & 1 & 14 & 19 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{enumerate}
+	\item Calculate the individual treatment effects $\tau_i$. Are the treatment effects constant? In other words, is it the case that $\tau_i = \bar{\tau}$ for each individual?
+	% -4, 0, -4, -4, -1, -5; no
+	\item Calculate the average treatment effect.
+	% -3
+	\item Why is it impossible to observe data on counterfactual outcomes in real life? How does the inability to observe those data relate to the fundamental problem of econometrics?
+	\item Estimate the average treatment effect by comparing the mean of the treatment group to the mean of the control group. 
+	% treatment group mean = 35/3, control group mean = 24/3, diff in means = 11/3
+	\item Do you think that the estimator in part (d) is unbiased? Why or why not?
+\end{enumerate}
+
+\bigskip
+
+\item Consider the research question, \textit{``does binge drinking induce violent behavior among college students?''} Use it to address the following:
+
+\begin{enumerate}
+	\item What is the outcome variable? What is the treatment?
+	\item Define the counterfactual outcomes $Y_{1,i}$ and $Y_{0,i}$.
+	\item What are some plausible causal mechanisms that run directly from the treatment to the outcome?
+	\item What are some potential sources of selection bias in the raw comparison of outcomes by treatment status? Do you expect the bias to be positive or negative? Why?
+\end{enumerate}
+
+\clearpage
+
+\item Suppose that a school district conducts a randomized control trial of a reading intervention for low-performing 8$^\text{th}$-grade students. To determine whether the intervention improved reading test scores, the district's data analysts estimated a regression using ordinary least squares (OLS). The results are summarized in the table below:
+
+\begin{table}[H] 
+	\renewcommand\thetable{}
+	\centering 
+	\begin{tabular}{@{\extracolsep{5pt}}lc} 
+		\\[-1.8ex]\toprule 
+		& Reading Test Score \\ 
+		\midrule \\[-1.8ex] 
+		Treatment & 5.231 \\ 
+		& (2.015) \\[1ex]
+		Intercept & 50.812 \\ 
+		& (12.887) \\ 
+		\midrule \\[-1.8ex] 
+		Observations & 956 \\ 
+		\bottomrule \\[-1.8ex] 
+		\footnotesize \textit{Note:}  & \multicolumn{1}{r}{\footnotesize Standard errors in parentheses.}
+	\end{tabular} 
+\end{table} 
+
+\begin{enumerate}
+
+	\item Write down the regression model the analysts estimated.
+	\item What is the average reading test score of students in the control group after the intervention? 
+	\item What is the estimated treatment effect? 
+	\item Using the rule of thumb discussed in class, determine whether the treatment effect is statistically distinguishable from zero. Explain.
+	\item What is the average reading test score of students in the treatment group after the intervention? 
+	\item Under what conditions would the randomized control trial isolate the causal effect of the reading intervention on reading test scores?
+	\item Suppose that the randomly selected control group happened to have twice as many non-native English speakers as the randomly selected treatment group. Non-native speakers score lower on standardized (English) reading tests, on average. In light of this information, is it likely that the estimated treatment effect isolates the effect of the intervention? Why or why not? If not, what is the sign of the bias?
+\end{enumerate}
+\end{enumerate}
+\clearpage
+\begin{center}
+\textbf{Computational Questions} \bigskip
+\end{center}
+
+\noindent For this portion of the problem set, you will use the file \texttt{bm.csv} in the \texttt{Problem\_Set\_2} folder on Canvas. The file contains experimental data from the influential study \href{https://www.aeaweb.org/articles?id=10.1257/0002828042002561}{\textit{Are Emily and Greg More Employable than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination}} by Bertrand and Mullainathan (2004). The authors study the effect of job applicant race on hiring managers' callback decisions by sending fictitious r\'esum\'es to real job postings. To isolate the effect of race, the authors randomly determine whether each r\'esum\'e has a ``black-sounding'' name or a ``white-sounding'' name.  
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{@{\extracolsep{1cm}} l l @{}}
+		\toprule
+		\textbf{Variable Name} & \textbf{Description}  \\ \toprule
+		\texttt{black} & $=1$ if r\'esum\'e has a ``black-sounding'' name \\
+		\texttt{female} & $=1$ if r\'esum\'e has a ``female-sounding'' name \\
+		\texttt{call} & $=1$ if r\'esum\'e received a callback from a real employer \\
+		\texttt{educ} & Level of education reported on the r\'esum\'e \\
+		\texttt{num\_jobs} & Number of jobs listed on the r\'esum\'e \\
+		\texttt{exper} & Years of work experience on the r\'esum\'e \\
+		\texttt{comp\_skill} & $=1$ if computer skills are mentioned on the r\'esum\'e  \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Use the data to complete the tasks and questions below.
+
+\begin{enumerate}
+
+	
+\item What percentage of r\'esum\'es received a callback? 
+
+\textit{Hint}: The mean of a binary variable gives the fraction of observations with a value of 1.
+
+\item Calculate the callback rate for each race (in this case, black and white). Do employers appear to consider applicants' race when making callback decisions? Explain.
+
+\item What is the difference in average callback rates between black and white applicants? Can you conclude that employers discriminate against black applicants?
+
+\item Without running a regression, conduct a $t$-test for the difference in callback rates by race. Is the difference in callback rates statistically significant?
+
+\item Run a regression of \texttt{call} on \texttt{black}. 
+\begin{enumerate}
+	\item Does the estimated coefficient on \texttt{black} match the difference-in-means you estimated in exercise 3?
+	\item Using the rule of thumb discussed in class, determine whether the estimated coefficient on \texttt{black} is statistically significant.
+\end{enumerate}
+
+\item Run a regression of \texttt{call} on \texttt{black} with controls for education and experience. 
+\begin{enumerate}
+
+	\item Report the results of the new regressions and the regression you estimated in exercise 5 in a \texttt{stargazer} table.
+	\item Does the coefficient on \texttt{black} change with the additional controls? 
+\end{enumerate}
+
+\item Are the results of the field experiment consistent with the notion that employers discriminate based on race? Explain.
+
+\end{enumerate}
+\end{onehalfspacing}
+\end{document}

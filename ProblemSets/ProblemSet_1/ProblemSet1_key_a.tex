@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage{authblk}
 \usepackage{setspace}
+\usepackage[dvipsnames]{xcolor}
 
 \usepackage{lscape} %this is to make the landscape of individual table pages.
 \usepackage{enumitem, float, booktabs}
@@ -36,6 +37,7 @@
 \end{center}
 
 
+\noindent \textbf{Total:  points}
 
 \noindent \textbf{Due: On canvas, January 17th at 5 pm}
 
@@ -70,10 +72,8 @@ Collaborator 1: \\
 
 \vspace{0.1in}
 
-Collaborator 2: \\
-			\vspace{0.1in}
-
-Collaborator 3:
+Collaborator 2: 
+			
 			
 
 \newpage
@@ -88,10 +88,30 @@ Collaborator 3:
 	
 \item Consider an experiment where you flip three fair coins, record whether each coin landed heads or tails, and assign heads a value of 2 and tails a value of -1. You then multiply the values from each flip and describe this product as the random variable $X$. For example, if the coins landed \texttt{heads}, \texttt{heads}, \texttt{tails}, then you would multiply $2 \cdot 2 \cdot -1$ to find an outcome of $X = -4$.
 \begin{enumerate}[label=(\alph*)]
-	\item Is $X$ a discrete or continuous random variable?
-	\item Outline the probability distribution of $X$ in a table.
-	\item What is the population mean of $X$? In other words, what is $E(X)$?
-	\item What is the population variance of $X$?
+	\item Is $X$ a discrete or continuous random variable?\\
+	
+	\textcolor{PineGreen} {$X$ is a discrete random variable.}\\
+	\item Outline the probability distribution of $X$ in a table.\\
+		\begin{table}[htb]
+		\centering
+		
+		\begin{tabular}{@{\extracolsep{1cm}} c c c @{}}
+			\toprule
+			\textcolor{PineGreen}{\textbf{Outcomes}} & \textcolor{PineGreen}{\textbf{$X$}} & \textcolor{PineGreen}{\textbf{Probability}}  \\ \toprule
+			\textcolor{PineGreen}{HHH} & \textcolor{PineGreen}{8} & \textcolor{PineGreen}{1/8} \\
+			\textcolor{PineGreen}{HTT, TTH, THT} &\textcolor{PineGreen}{2} & \textcolor{PineGreen}{3/8} \\
+			\textcolor{PineGreen}{TTT} &\textcolor{PineGreen}{-1} & \textcolor{PineGreen}{1/8} \\
+			\textcolor{PineGreen}{HHT, THH, HTH} & \textcolor{PineGreen}{-4} & \textcolor{PineGreen}{3/8} \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	\item What is the population mean of $X$? In other words, what is $E(X)$?\\
+	
+	\textcolor{PineGreen} {$E(X) = 8 \cdot 1/8 + 2 \cdot 3/8 - 1 \cdot 1/8 - 4 \cdot 3/8 = 1/8$}\\
+	\item What is the population variance of $X$?\\
+	
+	\textcolor{PineGreen}{ $\mathop{\text{Var}}(X) = E(X^2) - [E(X)]^2 = 8^2 \cdot 1/8 + 2^2 \cdot 3/8 + (-1)^2 \cdot 1/8 + (-4)^2 \cdot 3/8 - (1/8)^2 = 15.625 - 0.015625 = 15.609375$.}
+	
 \end{enumerate}
 
 \bigskip
@@ -105,16 +125,33 @@ Collaborator 3:
 \end{figure}
 
 \begin{enumerate}[label=(\alph*)]
-	\item Which of the estimators above is unbiased?
-	\item  Which of the estimators above has the smallest variance?
-	\item Which of the estimators above is the ``best'' unbiased estimator?
+	\item Which of the estimators above is unbiased?\\
+	
+	\textcolor{PineGreen} {Estimators B and C are unbiased because their expected values are equal to the unknown population parameter $\mu$.}\\
+	
+	\item  Which of the estimators above has the smallest variance?\\
+	
+	
+	\textcolor{PineGreen}{Of the three estimators, Estimator A has the smallest variance. Compared to those of the other estimators, the estimates from Estimator A are more tightly distributed around the estimator's expected value.}\\
+	
+	\item Which of the estimators above is the ``best'' unbiased estimator?\\
+	
+	\textcolor{PineGreen}{The ``best'' unbiased estimator is the unbiased estimator with the least variance. Both Estimator B and Estimator C are unbiased, but Estimator C has a smaller variance. In this sense, Estimator C is the best unbiased estimator.}
 \end{enumerate}
 
 \bigskip
 
-\item Use the rules of the expected values operator to \textbf{prove} that the population variance $E \left[ \left( X - E(X) \right)^2 \right]$ is equivalent to $E(X^2) - \left[ E(X)\right]^2$.
+\item Use the rules of the expected values operator to \textbf{prove} that the population variance $E \left[ \left( X - E(X) \right)^2 \right]$ is equivalent to $E(X^2) - \left[ E(X)\right]^2$.\\
 
-\bigskip
+
+\textcolor{PineGreen}{
+	\begin{align*}
+	E[(X-E(X))^2] &= E[(X-E(X)) (X-E(X))]
+	\\ &=E[X^2 - 2XE(X) + E(X)^2]
+	\\ &= E(X^2) - 2E(X)E(X) + E(X)^2
+	\\ &= E(X^2) - E(X)^2
+	\end{align*}
+}\\
 
 \item Consider data gathered from students on the number of hours they slept the night before their midterm exam and their subsequent exam scores:
 
@@ -132,10 +169,73 @@ Collaborator 3:
 \end{table}
 
 \begin{enumerate}[label=(\alph*)]
-	\item In the space provided below, draw a scatter plot with \textbf{Exam Score} on the $Y$-axis and \textbf{Hours Slept} on the $X$-axis. Do they appear positively or negatively correlated?
-	\item What is the sample mean of \textbf{Exam Score}?
-	\item What is the sample variance of \textbf{Hours Slept}?
-	\item What is the sample correlation coefficient between \textbf{Exam Score} and \textbf{Hours Slept}?
+	\item In the space provided below, draw a scatter plot with \textbf{Exam Score} on the $Y$-axis and \textbf{Hours Slept} on the $X$-axis. Do they appear positively or negatively correlated?\\
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics{scatter1.png}
+	\end{figure}
+
+	\textcolor{PineGreen} {They appear positively correlated.}\\
+	
+	\item What is the sample mean of \textbf{Exam Score}?\\
+	
+	\textcolor{PineGreen}{The mean \textbf{exam score} is 77.5.
+	\begin{align*}
+	\overline{\text{Exam Score}} &= \frac{95 + 85 + 70 + 60}{4}
+	\\ &= \frac{310}{4}
+	\\ &= 77.5
+	\end{align*}} \\
+	
+	\item What is the sample variance of \textbf{Hours Slept}?\\
+	
+	\textcolor{PineGreen}{ The variance of \textbf{hours slept} is 6.25.	
+	To calculate the variance, you first need to calculate the sample mean of \textbf{hours slept}:	
+	\begin{align*}
+	\overline{\text{Hours Slept}} &= \frac{8+10+7+4}{4}
+	\\ &= \frac{29}{4}
+	\\ &= 7.25.
+	\end{align*}
+	Then you calculate the sample variance:
+	\begin{align*}
+	\mathop{\text{Var}}(\text{Hours Slept}) &= \frac{(8 - 7.25)^2 + (10 - 7.25)^2 + (7 - 7.25)^2 + (4 - 7.25)^2 }{4-1}
+	\\ &= \frac{0.5625 + 7.5625 + 0.0625 + 10.5625}{4-1}
+	\\ &= \frac{18.75}{3}
+	\\ &= 6.25.
+	\end{align*}	}
+	
+	\item What is the sample correlation coefficient between \textbf{Exam Score} and \textbf{Hours Slept}?\\
+	
+\textcolor{PineGreen}{ The correlation between \textbf{exam score} and \textbf{hours slept} is approximately 0.79.
+	Start by calculating the sample covariance between \textbf{exam score} and \textbf{hours slept}:
+	\scriptsize
+	\begin{align*}
+	\mathop{\text{Cov}}(\text{Score}, \text{Sleep}) &= \frac{(8 - 7.25)(95 - 77.5) + (10 - 7.25)(85 - 77.5) + (7 - 7.25)(70 - 77.5) + (4 - 7.25)(60 - 77.5) }{4-1}
+	\\ &= \frac{13.125 + 20.625 + 1.875 + 56.875}{4-1}
+	\\ &= \frac{92.5}{3}
+	\\ &\approx 30.83.
+	\end{align*}	
+	\normalsize	
+	The correlation coefficient is given by
+	\begin{align*}
+	\mathop{\text{Cor}}(\text{Exam Score}, \text{Hours Slept}) &= \frac{\mathop{\text{Cov}}(\text{Exam Score}, \text{Hours Slept})}{\sqrt{\mathop{\text{SD}}(\text{Exam Score})} \cdot \sqrt{\mathop{\text{SD}}(\text{Hours Slept})}}.
+	\end{align*}
+	To find the standard deviations, you need the variances. 
+	Calculate the sample variance of \textbf{Exam Score}:	
+	\begin{align*}
+	\mathop{\text{Var}}(\text{Exam Score}) &= \frac{(95 - 77.5)^2 + (85 - 77.5) ^2 + (70 - 77.5)^2 + (60 - 77.5)^2 }{4-1}
+	\\ &= \frac{725}{4-1}
+	\\ &= \frac{725}{3}
+	\\ &\approx 241.67.
+	\end{align*}	
+	Finally, you can plug in what you know:	
+	\begin{align*}
+	\mathop{\text{Cor}}(\text{Exam Score}, \text{Hours Slept}) &= \frac{\mathop{\text{Cov}}(\text{Exam Score}, \text{Hours Slept})}{\sqrt{\mathop{\text{SD}}(\text{Exam Score})} \cdot \sqrt{\mathop{\text{SD}}(\text{Hours Slept})}}
+	\\ &= \frac{30.83}{\sqrt{6.25} \cdot \sqrt{241.67}}
+	\\ &= \frac{30.83}{2.5 \cdot 15.54574}
+	\\ &\approx 0.79.
+	\end{align*}	
+	}
 \end{enumerate}
 
 \end{enumerate}
