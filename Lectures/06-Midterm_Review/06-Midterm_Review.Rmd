@@ -1,0 +1,443 @@
+---
+title: "Midterm Review"
+subtitle: "EC 320: Introduction to Econometrics"
+author: "Amna Javed"
+date: "Winter 2020"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'my-css.css']
+    # self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, middle
+
+```{r Setup, include = F}
+options(htmltools.dir.version = FALSE)
+library(pacman)
+# devtools::install_github("dill/emoGG")
+library(pacman)
+p_load(
+  broom, here, tidyverse,
+  emoGG, latex2exp, ggplot2, ggthemes, viridis, extrafont, gridExtra,
+  kableExtra,
+  data.table, dagitty, ggdag,
+  dplyr, gganimate,
+  lubridate,
+  magrittr, knitr, parallel
+)
+# Define colors
+red_pink <- "#e64173"
+met_slate <- "#23373b" # metropolis font color
+# Notes directory
+dir_slides <- "~/GitHub/Intro_Econometrics_F19/Lectures/06-Midterm_Review/"
+# Knitr options
+opts_chunk$set(
+  comment = "#>",
+  fig.align = "center",
+  fig.height = 7,
+  fig.width = 10.5,
+  #dpi = 300,
+  #cache = T,
+  warning = F,
+  message = F
+)  
+theme_simple <- theme_bw() + theme(
+  axis.line = element_line(color = met_slate),
+  panel.grid = element_blank(),
+  rect = element_blank(),
+  strip.text = element_blank(),
+  text = element_text(family = "Fira Sans", color = met_slate, size = 14),
+  axis.text.x = element_text(size = 12),
+  axis.text.y = element_text(size = 12),
+  axis.ticks = element_blank(),
+  plot.title = element_blank(),
+  legend.position = "none"
+)
+theme_gif <- theme_bw() + theme(
+  axis.line = element_line(color = met_slate),
+  panel.grid = element_blank(),
+  rect = element_blank(),
+  strip.text = element_blank(),
+  text = element_text(family = "Fira Sans", color = met_slate, size = 14),
+  axis.text.x = element_text(size = 12),
+  axis.text.y = element_text(size = 12),
+  axis.ticks = element_blank()
+)
+```
+
+# Prologue
+
+---
+# Housekeeping
+
+
+Midterm 1 on Wednesday
+
+- .hi[No labs this week!]
+- Sichao extra office hours Tuesday 11-12pm
+- My extra office hours Monday 2-3pm
+
+---
+class: inverse, middle
+
+# Midterm I: High Concepts
+
+---
+# Midterm Topics
+
+.green[Anything from the lectures, labs, or problem sets] .hi-green[is fair game!]
+
+1. Probability Theory
+
+2. Statistics
+
+3. The Fundamental Problem of Econometrics
+
+4. Randomized Control Trials
+
+5. The Logic of Regression
+
+---
+# Midterm Topics
+
+## 1. Probability Theory
+
+Random variables
+
+Expected values
+
+Population variance
+
+---
+# Midterm Topics
+
+## 2. Statistics
+
+Estimators
+
+- Population *v.s.* sample distinction.
+- Sample mean, sample variance, sample covariance, sample correlation coefficient.
+- Unbiasedness and efficiency.
+
+Hypothesis testing
+
+- Statistical significance.
+- $t$-statistics.
+- Two-sided $t$ tests using rule of thumb (*i.e.,* compare $t$ to $t_{\text{crit}} = 2$).
+
+---
+# Midterm Topics
+
+## 3. The Fundamental Problem of Econometrics
+
+Causal mechanisms *v.s.* confounding factors
+
+Ideal data on potential outcomes
+
+- Individual *v.s.* average treatment effects.
+
+Selection bias
+
+---
+# Midterm Topics
+
+## 4. Randomized Control Trials
+
+How do RCTs eliminate selection bias?
+
+- Can an RCT fail to eliminate selection bias? How?
+
+--
+
+Research questions
+
+- Identify outcome variable and treatment variable.
+
+Estimation using experimental data
+
+- Linear regression.
+- Know mean of control and treatment group from regression (see PS 2).
+
+---
+# Midterm Topics
+
+## 5. The Logic of Regression
+
+Regression models and tables
+
+- Identify outcome variable, treatment variable, constants.
+- Interpret $\beta$ coefficients.
+- Write regressions.
+- Sample versus population regression.
+- Make predictions.
+
+
+---
+# Midterm Topics
+
+## 6. Tidy Data and .mono[R]
+
+.hi[I will not ask you to write code.]
+
+Interpret .mono[R] output
+
+- Example: Console output of .mono[lm()] or .mono[cor()].
+
+---
+# Midterm Structure
+
+## Multiple Choice
+
+- 6 questions
+- 2 points per question (12 points total)
+
+## Short Questions 
+
+- 3 questions (10 points total)
+
+## Analytical Questions
+
+- 3 multi-part questions with varying numbers of points (43 points total)
+
+---
+# Midterm Protocol
+
+## Materials
+
+- Writing utensil
+- Basic or scientific calculator (no graphing or programming capabilities)
+- .hi[Nothing else]
+
+## Procedure
+
+- 80 minutes from *"you may begin"* to *"pencils down"*
+- Keep bags to side of the room or front (makes answering questions easier)
+- Minimize bathroom breaks (movement can be disturbing to others)
+
+
+---
+class: inverse, middle
+
+# Practice
+
+---
+# Regression Table
+
+## Example: 2016 election
+
+**Q:** Write down the regression model estimated in column 1.
+
+```{R, echo = F, escape = F}
+tab <- data.frame(
+  v1 = c("Intercept", "", "White (%)", "", "Poverty (%)", ""),
+  v2 = rbind(
+    c(-40.7, 0.910, ""),
+    c("(1.95)", "(0.024)", "")
+  ) %>% as.vector(),
+  v3 = rbind(
+    c(42.0, "", -0.647),
+    c("(1.49)", "", "(0.087)")
+  ) %>% as.vector(),
+  v4 = rbind(
+    c(-65.7, 1.05, 0.883),
+    c("(2.99)", "(0.027)", "(0.081)")
+  ) %>% as.vector()
+) %>% kable(
+  escape = F,
+  col.names = c("Explanatory variable", "1", "2", "3"),
+  align = c("l", rep("c", 4)),
+  caption = "Outcome: Trump Margin (%)"
+) %>%
+row_spec(1:6, color = met_slate) %>%
+row_spec(seq(2,6,2), color = "#c2bebe") %>%
+row_spec(1:6, extra_css = "line-height: 110%;") %>%
+column_spec(1, color = "black", italic = T)
+tab %>% column_spec(2, bold = T)
+```
+
+--
+
+**A:** $\text{Trump}_i = \beta_0 + \beta_1 \text{White}_i + u_i$.
+
+---
+# Regression Table
+
+## Example: 2016 election
+
+**Q:** Write down the regression model estimated in column 2.
+
+```{R, echo = F}
+tab %>% column_spec(3, bold = T)
+```
+
+--
+
+**A:** $\text{Trump}_i = \beta_0 + \beta_1 \text{Poverty}_i + u_i$.
+
+---
+# Regression Table
+
+## Example: 2016 election
+
+**Q:** Write down the regression model estimated in column 3.
+
+```{R, echo = F}
+tab %>% column_spec(4, bold = T)
+```
+
+--
+
+**A:** $\text{Trump}_i = \beta_0 + \beta_1 \text{White}_i + \beta_2\text{Poverty}_i + u_i$.
+
+---
+# Regression Table
+
+## Example: 2016 election
+
+**Q:** How do we interpret the coefficient on poverty in column 2?
+
+```{R, echo = F}
+tab %>% column_spec(3, bold = T)
+```
+
+--
+
+**A:** *"A 1 p.p. increase in the poverty rate is associated with a 0.647 p.p. decrease in Trump's margin of victory."*
+
+---
+# Regression Table
+
+## Example: 2016 election
+
+**Q:** Is the poverty coefficient in column 2 statistically significant?
+
+```{R, echo = F}
+tab %>% column_spec(3, bold = T)
+```
+
+--
+
+**A:** *"Yes. The estimate is more than twice its standard error, which corresponds to* $t > 2$*."*
+
+---
+# Regression Table
+
+## Example: 2016 election
+
+**Q:** How do we interpret the intercept in column 2?
+
+```{R, echo = F}
+tab %>% column_spec(3, bold = T)
+```
+
+--
+
+**A:** *"Counties with poverty rates of zero had a Trump margin of 42 percent, on average."*
+
+---
+
+<!-- --- -->
+<!-- # Regression Table -->
+
+<!-- ## Example: 2016 election -->
+
+<!-- **Q:** Does omitting $\text{White}_i$ bias the estimator of the $\text{Poverty}_i$ coefficient?  -->
+
+<!-- ```{R, echo = F} -->
+<!-- tab %>% column_spec(c(3,4), bold = T) -->
+<!-- ``` -->
+
+<!-- -- -->
+
+<!-- **A:** *"Omitting* $\text{White}_i$ *appears to cause negative omitted-variable bias. The size of the bias is* $\beta_{\text{Poverty}}^{\text{Short}} - \beta_{\text{Poverty}}^{\text{Long}} = -0.647 - 0.883 = -1.53$*."* -->
+
+<!-- --- -->
+<!-- # Omitted Variables -->
+
+<!-- **Goal:** Isolate the effect of .hi[X] on .hi[Y]. <br> **Q:** Which variables, if omitted, would cause omitted-variable bias? -->
+
+<!-- ```{r, dev = "svg", echo = F, fig.height = 5} -->
+<!-- dag1 <- dagify(Y ~ X + a + c + d, -->
+<!--                X ~ a + b + d, -->
+<!--                exposure = "X", -->
+<!--                outcome = "Y") -->
+
+<!-- ggplot(data = dag1, aes(x = x, y = y, xend = xend, yend = yend)) + -->
+<!--       geom_dag_point(color = red_pink) + -->
+<!--       geom_dag_edges() + -->
+<!--       geom_dag_text(family = "Fira Sans") + -->
+<!--       theme_dag() -->
+<!-- ``` -->
+
+<!-- -- -->
+
+<!-- **A:** .pink[a] and .pink[d]. -->
+
+<!-- --- -->
+
+
+# Regression Table
+
+## Example: 2016 election
+
+**Q:** Predict Trump's victory margin if the poverty rate in a county is 50 percent.
+
+```{R, echo = F}
+tab %>% column_spec(3, bold = T)
+```
+
+--
+
+**A:** $\hat{\text{Trump}_i} = \hat{\beta_0} + \hat{\beta_1} \text{Poverty}_i = 42 + (-0.647) (50) = 9.65$
+ 
+---
+# Regression Output
+
+Suppose that a government agency wants to identify the causal effect of money on problems. To isolate the causal effect, the agency conducts an RCT that gives 10,000 dollars to people in the randomly selected treatment group and 0 dollars to people in the randomly selected control group. 
+
+```{R, include = F}
+set.seed(362)
+rct_data <- tibble(
+  money = rep(c(1, 0), each = 500),
+  problems = 11 - 0.5*money + rnorm(1000, 0, 100)
+)
+```
+
+```{r}
+reg_rct <- lm(problems ~ money, data = rct_data)
+tidy(reg_rct)
+```
+
+--
+
+**Q.sub[1]:** What is the regression model the agency estimated? 
+
+--
+
+**Q.sub[2]:** What is the estimated treatment effect? 
+
+---
+# Regression Output
+
+```{r}
+reg_rct <- lm(problems ~ money, data = rct_data)
+tidy(reg_rct)
+```
+
+**Q.sub[3]:** Is the estimated treatment effect statistically distinguishable from zero? 
+
+--
+
+**Q.sub[4]:** What is the average number of problems for those in the control group? 
+
+--
+
+**Q.sub[5]:** What is the average number of problems for those in the treatment group? 
+
+--
+
+**Q.sub[6]:** Does money affect problems?
+
