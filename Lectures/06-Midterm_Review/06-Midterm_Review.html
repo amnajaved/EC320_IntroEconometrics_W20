@@ -57,6 +57,8 @@ class: inverse, middle
 
 5. The Logic of Regression
 
+6. R
+
 ---
 # Midterm Topics
 
@@ -135,7 +137,7 @@ Regression models and tables
 ---
 # Midterm Topics
 
-## 6. Tidy Data and .mono[R]
+## 6. .mono[R]
 
 .hi[I will not ask you to write code.]
 
@@ -548,46 +550,6 @@ class: inverse, middle
 
 ---
 
-&lt;!-- --- --&gt;
-&lt;!-- # Regression Table --&gt;
-
-&lt;!-- ## Example: 2016 election --&gt;
-
-&lt;!-- **Q:** Does omitting `\(\text{White}_i\)` bias the estimator of the `\(\text{Poverty}_i\)` coefficient?  --&gt;
-
-&lt;!-- ```{R, echo = F} --&gt;
-&lt;!-- tab %&gt;% column_spec(c(3,4), bold = T) --&gt;
-&lt;!-- ``` --&gt;
-
-&lt;!-- -- --&gt;
-
-&lt;!-- **A:** *"Omitting* `\(\text{White}_i\)` *appears to cause negative omitted-variable bias. The size of the bias is* `\(\beta_{\text{Poverty}}^{\text{Short}} - \beta_{\text{Poverty}}^{\text{Long}} = -0.647 - 0.883 = -1.53\)`*."* --&gt;
-
-&lt;!-- --- --&gt;
-&lt;!-- # Omitted Variables --&gt;
-
-&lt;!-- **Goal:** Isolate the effect of .hi[X] on .hi[Y]. &lt;br&gt; **Q:** Which variables, if omitted, would cause omitted-variable bias? --&gt;
-
-&lt;!-- ```{r, dev = "svg", echo = F, fig.height = 5} --&gt;
-&lt;!-- dag1 &lt;- dagify(Y ~ X + a + c + d, --&gt;
-&lt;!--                X ~ a + b + d, --&gt;
-&lt;!--                exposure = "X", --&gt;
-&lt;!--                outcome = "Y") --&gt;
-
-&lt;!-- ggplot(data = dag1, aes(x = x, y = y, xend = xend, yend = yend)) + --&gt;
-&lt;!--       geom_dag_point(color = red_pink) + --&gt;
-&lt;!--       geom_dag_edges() + --&gt;
-&lt;!--       geom_dag_text(family = "Fira Sans") + --&gt;
-&lt;!--       theme_dag() --&gt;
-&lt;!-- ``` --&gt;
-
-&lt;!-- -- --&gt;
-
-&lt;!-- **A:** .pink[a] and .pink[d]. --&gt;
-
-&lt;!-- --- --&gt;
-
-
 # Regression Table
 
 ## Example: 2016 election
@@ -643,8 +605,6 @@ class: inverse, middle
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
---
 
 **A:** `\(\hat{\text{Trump}_i} = \hat{\beta_0} + \hat{\beta_1} \text{Poverty}_i = 42 + (-0.647) (50) = 9.65\)`
  
