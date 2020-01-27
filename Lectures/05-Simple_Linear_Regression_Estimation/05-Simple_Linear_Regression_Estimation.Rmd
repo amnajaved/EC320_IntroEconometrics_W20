@@ -306,7 +306,19 @@ $\beta_1$ and $\beta_2$ are the population parameters we want, but we cannot obs
 
 --
 
-Instead, we must estimate the population parameters.
+Instead, we must estimate the population parameters using our $\textit{data sample}$.
+
+
+$$
+ \text{Crime}_i = \text{b}_1 + \text{b}_2\text{Police}_i + e_i
+$$
+
+
+But, is $b_1 = \beta_1$ and $b_2 = \beta_2$?
+
+---
+
+Using our estimates, we can make predictions:
 
 - $\hat{\beta_1}$ and $\hat{\beta_2}$ generate predictions of $\text{Crime}_i$ called $\hat{\text{Crime}_i}$. 
 
