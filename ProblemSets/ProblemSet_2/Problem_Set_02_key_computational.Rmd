@@ -1,0 +1,161 @@
+---
+title: "Problem Set 2: Key to Computational Problems"
+author: | 
+        | Amna Javed, Cory Briar, Sichao Jiang, Youssef Ait Benasser
+        | EC 320: Introduction to Econometrics
+        | University of Oregon
+date: "Winter 2020"
+output: 
+  html_document:
+    theme: flatly  
+    highlight: tango
+    includes:
+      after_body: 
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = F)
+```
+
+## Preliminaries
+
+```{r}
+library(pacman)
+p_load(tidyverse, broom, stargazer)
+
+resumes <- read_csv("bm.csv")
+```
+
+## Exercise 1
+
+*What percentage of resumes received a callback?*
+
+```{r}
+mean(resumes$call, na.rm = TRUE)
+```
+
+Approximately 8 percent of resumes received a callback.
+
+## Exercise 2
+
+*Calculate the callback rate for each race (in this case, black and white). Do employers appear to consider an applicants race when making callback decisions? Explain.*
+
+```{r}
+resumes %>% 
+  group_by(black) %>% 
+  summarize(call = mean(call, na.rm = TRUE))
+```
+
+The callback rate for resumes with black names is roughly 6.5 percent and the callback rate for resumes with white names is approximately 9.7 percent. The apparent difference in callback rates is consistent with the notion that employers consider race when making callback decisions. However, we do not know whether the difference is statistically significant.
+
+## Exercise 3
+
+*What is the difference in average callback rates between black and white applicants? Can you conclude that employers discriminate against black applicants?*
+
+```{r}
+black_call <- filter(resumes, black == 1)$call %>% 
+  mean(., na.rm = TRUE)
+
+white_call <- filter(resumes, black == 0)$call %>% 
+  mean(., na.rm = TRUE)
+
+black_call - white_call
+```
+
+The callback rate for resumes with black names is 3.2 percentage points lower than the callback rate for resumes with white names. The randomized nature of the field experiment suggests that we are holding all else equal when we compare the callback rates of resumes with black names with those of esumes with white names. If there is a statistically significant difference in callback rates, then the evidence is consistent with the notion that employers discriminate against black applicants. However, we have yet to test whether the difference is statistically significant.
+
+## Exercise 4
+
+*Without running a regression, conduct a t-test for the difference in callback rates by race. Is the difference in callback rates statistically significant?*
+
+```{r}
+# black mean
+mean_b <- filter(resumes, black == 1)$call %>% 
+  mean(., na.rm = TRUE)
+
+# white mean
+mean_w <- filter(resumes, black == 0)$call %>% 
+  mean(., na.rm = TRUE)
+
+# black variance
+var_b <- filter(resumes, black == 1)$call %>% 
+  var(., na.rm = TRUE)
+
+# white variance
+var_w <- filter(resumes, black == 0)$call %>% 
+  var(., na.rm = TRUE)
+
+# number of black observations 
+n_b <- filter(resumes, black == 1 & !is.na(call)) %>% 
+  nrow()
+
+# number of white observations
+n_w <- filter(resumes, black == 0 & !is.na(call)) %>% 
+  nrow()
+
+# t-stat
+t_stat <- (mean_b - mean_w) / sqrt(var_b/n_b + var_w/n_w)
+
+t_stat
+```
+
+Using a version of the informal rule discussed in the lecture, we can reject the null hypothesis of no difference if $|t| > 2$. The $t$-statistic for the difference-in-means is -4.11, which is greater than 2 in absolute value. The difference in callback rates is statistically significant.
+
+## Exercise 5
+
+*Run a regression of* `call` *on* `black`*.*
+
+```{r}
+reg <- lm(call ~ black, data = resumes)
+
+tidy(reg)
+```
+
+### Part A
+
+*Does the estimated coefficient on* `black` *match the difference-in-means you estimated in exercise 3?*
+
+The estimated coefficient on `black` is identical to the difference-in-means you estimated in exercise 3.
+
+### Part B
+
+*Using the informal rule discussed in class, determine whether the estimated coefficient on black is statistically significant.*
+
+The estimated coefficient on `black` (-0.032) is more than double its standard error (roughly 0.008), so it is statistically significant.
+
+## Exercise 6
+
+*Run a regression of* `call` *on* `black` *with controls for education and experience.*
+
+```{r}
+reg_controls <- lm(call ~ black + educ + exper, data = resumes)
+
+tidy(reg)
+```
+
+### Part A
+
+*Report the results of the new regressions and the regression you estimated in exercise 5 in a* `stargazer` *table.*
+
+```{r}
+stargazer(reg, reg_controls, type = "text")
+```
+
+### Part B
+
+*Does the coefficient on* `black` *change with the additional controls?*
+
+The coefficient on `black` does not change with controls for education and experience. This is unsurprising because the authors of the study **randomly assigned** names so that the race of fictitious applicants is uncorrelated with education and experience.
+
+## Exercise 7
+
+*Are the results of the field experiment consistent with the notion that employers discriminate based on race? Explain.*
+
+The results of the field experiment are consistent with the notion that employers discriminate based on race. If there were no discrimination, then we would expect to see no difference in callback rates between resumes with black names and résumés with white names. The negative and statistically significant difference in callback rates suggests that black applicants are less likely to receive callbacks than white applicants. Moreover, we are inclined to interpret the difference as causal because the field experiment effectively randomized the races of the fictitious applicants. *All else being equal*, employers are less likely respond to black applicants.
+
+
+
