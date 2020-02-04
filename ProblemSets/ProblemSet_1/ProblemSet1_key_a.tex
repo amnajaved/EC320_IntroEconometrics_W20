@@ -218,7 +218,7 @@ Collaborator 2:
 	\normalsize	
 	The correlation coefficient is given by
 	\begin{align*}
-	\mathop{\text{Cor}}(\text{Exam Score}, \text{Hours Slept}) &= \frac{\mathop{\text{Cov}}(\text{Exam Score}, \text{Hours Slept})}{\sqrt{\mathop{\text{SD}}(\text{Exam Score})} \cdot \sqrt{\mathop{\text{SD}}(\text{Hours Slept})}}.
+	\mathop{\text{Cor}}(\text{Exam Score}, \text{Hours Slept}) &= \frac{\mathop{\text{Cov}}(\text{Exam Score}, \text{Hours Slept})}{\sqrt{\mathop{\text{Var}}(\text{Exam Score})} \cdot \sqrt{\mathop{\text{Var}}(\text{Hours Slept})}}.
 	\end{align*}
 	To find the standard deviations, you need the variances. 
 	Calculate the sample variance of \textbf{Exam Score}:	
@@ -230,7 +230,7 @@ Collaborator 2:
 	\end{align*}	
 	Finally, you can plug in what you know:	
 	\begin{align*}
-	\mathop{\text{Cor}}(\text{Exam Score}, \text{Hours Slept}) &= \frac{\mathop{\text{Cov}}(\text{Exam Score}, \text{Hours Slept})}{\sqrt{\mathop{\text{SD}}(\text{Exam Score})} \cdot \sqrt{\mathop{\text{SD}}(\text{Hours Slept})}}
+	\mathop{\text{Cor}}(\text{Exam Score}, \text{Hours Slept}) &= \frac{\mathop{\text{Cov}}(\text{Exam Score}, \text{Hours Slept})}{\sqrt{\mathop{\text{Var}}(\text{Exam Score})} \cdot \sqrt{\mathop{\text{Var}}(\text{Hours Slept})}}
 	\\ &= \frac{30.83}{\sqrt{6.25} \cdot \sqrt{241.67}}
 	\\ &= \frac{30.83}{2.5 \cdot 15.54574}
 	\\ &\approx 0.79.
