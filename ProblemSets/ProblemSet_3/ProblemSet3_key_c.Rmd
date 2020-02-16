@@ -1,0 +1,148 @@
+---
+title: "Problem Set 3: Key to Computational Problems"
+author: | 
+        | Amna Javed
+        | EC 320: Introduction to Econometrics
+        | University of Oregon
+date: "Winter 2020"
+output: 
+  html_document:
+    theme: flatly  
+    highlight: tango
+    includes:
+      after_body:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = F)
+```
+
+## Preliminaries
+
+```{r}
+library(pacman)
+p_load(tidyverse, stargazer)
+
+fertil <- read_csv("fertility.csv")
+```
+
+## Exercise 1
+
+*Does marrying later in life reduce fertility, as measured by the number of children? *
+
+### Part A
+
+*Write down a simple linear regression model that describes the effect of age at marriage on fertility. Use variable names that relate to the research question.*
+
+$$\text{Kids}_i = \beta_1 + \beta_2 \text{Age at marriage}_i + u_i$$
+
+### Part B
+
+*Using the* `lm()` *function, estimate the simple linear regression model that you specified above.*
+
+```{r}
+reg1 <- lm(kids ~ agem, data = fertil)
+summary(reg1)
+```
+
+
+### Part C
+
+*Make a regression table using* `stargazer`*.*
+
+```{r, results='asis'}
+stargazer(reg1, type = "html", keep.stat = c("rsq", "n"),
+          notes = "<em>&#42;p&lt;0.1;&#42;&#42;p&lt;0.05;&#42;&#42;&#42;p&lt;0.01</em>",
+          notes.append = FALSE)
+```
+
+**Note 1:** To ensure that R Markdown renders the table, you must specify `results='asis'` as a code chunk option.
+
+**Note 2:** The default `stargazer` table includes stars (`*`, `**`, and `***`) in the table notes, but R Markdown mistakes these to mean *"italicize"* or *"bold"*. I include raw HTML in the `notes` argument to fix this bug. 
+
+### Part D
+
+*Visualize your regression results by making a scatter plot with a fitted regression line.*
+
+```{r}
+fertil %>% 
+  ggplot(aes(y = kids, x = agem)) +
+  geom_point(alpha = 0.2) +
+  stat_smooth(method = "lm", se = FALSE) +
+  xlab("Mother's age at Marriage") +
+  ylab("Number of Children") +
+  theme_bw()
+```
+
+You can use the `alpha` argument in `geom_point` to make each point more transparent. For reference, `alpha = 1` makes the points completely opaque and `alpha = 0` makes them completely transparent. Increasing the transparency of points is useful when there are many observations with the same values, as is the case above. When you specify a value of `alpha` that is less than 1, points that represent many observations will appear darker than those that represent fewer observations.
+
+### Part E
+
+*Interpret the intercept estimate. Is this reasonable?*
+
+The intercept estimate is 5.55, which suggests that women who married at age 0 have 5 children, on average. 
+
+### Part F
+
+*Interpret the slope estimate.*
+
+The slope estimate is -0.16, which suggests that each additional year that a woman delays her marriage is associated with 0.16 fewer children, on average.
+
+### Part G
+
+*Is the slope coefficient statistically significant?*
+
+Based on the informal rule discussed in lecture, the slope coefficient $\beta_2$ is statistically significant because the coefficient estimate on the age at marriage variable is more than twice its standard error. The regression table also shows the results of hypothesis tests at the 10, 5, and 1 percent levels with stars that indicate rejection of the null hypothesis. The informal rule from lecture roughly corresponds to at least 3 stars (more on this later).
+
+### Part H
+
+*Does the slope estimate warrant causal interpretation? In other words, do you think that the slope describes the causal effect of education on fertility? Why or why not? If not, identify a potential source of selection bias or omitted-variable bias.*
+
+The slope probably fails to isolate the causal effect of age at marriage on fertility. The presence of omitted-variable bias would preclude causal interpretation of the slope estimate.
+
+One example of an omitted variable that could bias the slope estimator is wealth. Omitting information on wealth would cause bias because
+
+1. Women from wealthier families are more likely to have fewer children than poorer women and
+2. Women from wealthier families are more likely to delay marriage than poorer women.
+
+## Exercise 2
+
+*Does education reduce fertility, as measured by the number of children? *
+
+### Part A
+
+*Write down two simple linear regression models that describe the effect of parental education on fertility. Use variable names that relate to the research question.*
+
+$$\text{Kids}_i = \beta_1 + \beta_2 (\text{Mother's years of education})_i + u_i$$
+
+$$\text{Kids}_i = \beta_1 + \beta_2 (\text{Father's years of education})_i + u_i$$
+
+### Part B
+
+*Run two separate simple linear regressions that allow you to estimate the effect of mother's education and father's education on fertility. Use one independent variable per regression. Summarize the results in a regression table.*
+
+```{r, results='asis'}
+reg1 <- lm(kids ~ educ, data = fertil)
+reg2 <- lm(kids ~ peduc, data = fertil)
+
+stargazer(reg1, reg2, type = "html", keep.stat = c("rsq", "n"),
+          notes = "<em>&#42;p&lt;0.1;&#42;&#42;p&lt;0.05;&#42;&#42;&#42;p&lt;0.01</em>",
+          notes.append = FALSE)
+```
+
+### Part C
+
+*Identify and interpret the* $R^2$ *from the regression of fertility on father's education.*
+
+The $R^2$ from the the regression of fertility on father's education is 0.088. Father's education explains approximately 8.8 percent of the variation in fertility.
+
+### Part D
+
+*Of the three independent variables you considered, which one is the best predictor of fertility? Justify your answer.*
+
+Based on its relatively high $R^2$, `educ` appears to be the best predictor of `kids`. By *"best,"* I mean
+that a mother's education explains more of the variation in `kids` than the other two predictors. 

@@ -1,0 +1,355 @@
+
+
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{amsmath , amsthm , amssymb}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{authblk}
+\usepackage{setspace}
+
+\usepackage{lscape} %this is to make the landscape of individual table pages.
+\usepackage{enumitem, float, booktabs}
+\setcounter{MaxMatrixCols}{10}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+\setlength{\parindent}{0.5in}
+\geometry{left=.8in,right=1in,top=1in,bottom=1in}
+\renewcommand{\baselinestretch}{2}
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{pine_green}{rgb}{0.0, 0.47, 0.44}
+\begin{document}
+
+\begin{onehalfspacing}
+
+\begin{center}
+\textbf{EC 320: Introduction to Econometrics} \bigskip
+
+\textbf{Problem Set\bigskip\ 3}
+\bigskip
+\end{center}
+
+
+\noindent \textbf{Total: 50 points}
+
+\noindent \textbf{Due: Tuesday January 11th, 2020 at 1 pm}
+
+\bigskip
+
+
+\noindent \textbf{Learning Outcomes:}
+\begin{itemize}
+\item Understanding regression analysis  
+\item Understanding how to do basic proofs
+\item Understanding omitted variable bias
+\end{itemize}
+
+\bigskip
+
+
+\noindent \textbf{Checklist Before Handing In:}
+\begin{itemize}
+\item Did you answer all questions?
+\item Did you answer all parts for each question?
+\item Were your answers too vague? If so, make them more precise to make sure they really answer the question being asked.
+\end{itemize}
+
+\bigskip
+
+\noindent {\textbf{Instructions:}}\ You are encouraged to work with other students in the class, but you must provide original responses. To receive full credit, justify your answers and list your collaborators. For full credit on the computational exercises, include your code and output in addition to your answers. You will turn in digital copies of your responses on Canvas. Please note the list of acceptable file types on the submission page. \\
+\vspace{0.1in}
+
+Name: 			\\
+\vspace{0.1in}
+
+Collaborator 1: \\
+
+\vspace{0.1in}
+
+Collaborator 2: \\
+
+\vspace{0.1in}
+
+Collaborator 3: 
+			
+			
+
+\newpage
+
+
+\begin{center}
+\textbf{Analytical Questions} \bigskip
+\end{center}
+
+\begin{enumerate}
+
+\item Consider the data on hours studied per week and final grades in EC 320 from a sample of four students: (2 points each)
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{@{\extracolsep{1cm}} c c c @{}}
+		\toprule
+		\textbf{Student} & \textbf{Hours Studied} & \textbf{Final Grade} \\ \toprule
+		Hinata & 7 & 72\% \\
+		Michelle & 10 & 97\% \\
+		Jerry & 4 & 43\% \\
+		Jorge & 6 & 84\% \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+\begin{enumerate}
+	\item  Suppose that you want to use the data to learn about the effect of studying on grades. Write down a simple linear regression model tailored to your objective. \\
+
+	{\color{PineGreen} $(\text{Final Grade})_i = \beta_1 + \beta_2 (\text{Hours Studied})_i + u_i$.
+	}\\
+	
+	\item Calculate the parameter estimates for the intercept ($\hat{\beta}_1$) and slope ($\hat{\beta}_2$) using the OLS formulas from class. Show your work for full credit. \\
+
+
+	{\color{pine_green} Using the formulas, you should obtain $\hat{\beta}_1 \approx 19.28$ and $\hat{\beta}_2 \approx 8.11$. For full credit, you must have showed your work.
+	}\\
+	
+	\item Interpret $\hat{\beta}_1$. What does this parameter estimate tell us?\\
+
+	{\color{pine_green} $\hat{\beta}_1$ tells us the predicted grade for a student who didn't study. Someone who does not study can expect to receive a final grade of 19.28\%.
+	}\\
+	
+	\item Interpret $\hat{\beta}_2$. What does this parameter estimate tell us?\\
+	
+	
+	{\color{pine_green} $\hat{\beta}_2$ tells us the grade boost from an additional hour of studying per week. An additional hour of studying per week increases a student's final grade by 8.11 percentage points, on average.
+	}\\
+
+	\item Calculate the coefficient of determination ($R^2$) for the regression you estimated. Show your work. What does it tell us about the relationship between studying and grades?\\
+	
+	{\color{pine_green} Using the formula, $R^2 \approx 0.77$, which implies that studying explains 77\% of the variation in grades. For full credit, you must have showed your work.
+	}\\
+
+	\item What is the predicted final grade for a student who studies 5 hours per week?\\
+	
+	{\color{pine_green} The predicted final grade for someone who studies 5 hours per week is $19.28 + 8.11(5) = 59.83$.
+	}\\
+
+	\item Based on the regression you estimated, how many hours would a student have to study to expect a score of 100\%? \\
+
+
+	{\color{pine_green} The idea is to use the fitted relationship $\hat{(\text{Final Grade})_i} = 19.28 + 8.11 (\text{Hours Studied})_i$ and then solve for $(\text{Hours Studied})_i$. 
+		
+		First, plug 100 into $\hat{(\text{Final Grade})_i}$: $100 = 19.28 + 8.11(\text{Hours Studied})_i$.
+		
+		Next, subtract the intercept estimate from both sides: $80.72 = 8.11(\text{Hours Studied})_i$.
+		
+		Finally, divide both sides by the slope estimate: $(\text{Hours Studied})_i \approx 9.95$.
+	}\\
+
+\end{enumerate}
+
+\item Consider the predicted values of $Y_i$ from a simple linear regression of $Y_i$ on $X_i$, which we refer to as $\hat{Y}_i$. Prove that the sample mean of $\hat{Y}_i$ is equal to the sample mean of $Y_i$ (i.e. $\bar{Y}$). (3 points)\\
+
+
+{\color{pine_green}
+	
+	Start with the fitted regression line then replace $\hat{\beta}_1$ with the OLS intercept formula:
+	\begin{align*}
+	\hat{Y}_i &= \hat{\beta}_1 + \hat{\beta}_2X_i \\
+	 &= \bar{Y} - \hat{\beta}_2\bar{X} + \hat{\beta}_2X_i \\
+	&= \bar{Y} + \hat{\beta}_2(X_i -\bar{X}).
+	\end{align*}
+	
+	Next, sum over $i$ and divide by $n$:
+	$$ \frac{1}{n} \sum_{i=1}^n \hat{Y}_i = \frac{1}{n} \sum_{i=1}^n \bar{Y} + \frac{1}{n} \hat{\beta}_2 \sum_{i=1}^n (X_i -\bar{X}). $$
+
+	Notice that $\frac{1}{n} \sum_{i=1}^n \bar{Y} = \bar{Y}$. Then 
+	$$ \frac{1}{n} \sum_{i=1}^n \hat{Y}_i = \bar{Y} + \frac{1}{n} \hat{\beta}_2 \sum_{i=1}^n (X_i -\bar{X}). $$
+
+	In class, we showed that $\sum_{i=1}^n (X_i -\bar{X})=0$. Hence, 
+	\begin{align*}
+	\frac{1}{n} \sum_{i=1}^n \hat{Y}_i &= \bar{Y} + \frac{1}{n} \hat{\beta}_2 (0) \\
+	&= \bar{Y}.
+	\end{align*}
+		}
+
+\item Consider the residuals ($\hat{u}_i$) from a simple linear regression. Prove that the sample mean of $\hat{u}_i$ is equal to zero. (3 points)\\
+
+
+{\color{pine_green}
+	
+	A residual is defined as
+	$$ \hat{u}_i = Y_i - \hat{Y}_i. $$
+	
+	Define the sample mean of the residuals as
+	$$ \bar{\hat{u}}_i = \frac{1}{n} \sum_{i=1}^n \hat{u}_i. $$
+	
+	Plug in the definition of the residual to obtain
+	\begin{align*}
+	\bar{\hat{u}}_i &=\frac{1}{n} \sum_{i=1}^n Y_i - \frac{1}{n} \sum_{i=1}^n \hat{Y}_i \\
+	&= \bar{Y} - \frac{1}{n} \sum_{i=1}^n \hat{Y}_i.
+	\end{align*}
+	
+	In the previous exercise, you proved that the sample mean of $\hat{Y}_i$ is equal to the sample mean of $Y_i$. Thus,
+	\begin{align*}
+	\bar{\hat{u}}_i &= \bar{Y} - \bar{Y} \\
+	&= 0.
+	\end{align*}
+}
+
+\item Assume that $\bar{Y}$ and $\bar{X}$ are equal to zero. Prove that the sample covariance of $X_i$ and $\hat{u}_i$ is equal to zero. (3 points)\\
+
+
+{\color{pine_green}
+	If $\bar{X} = 0$ and $\bar{Y} = 0$, then
+	\begin{align*}
+	\hat{\beta}_1 &= \bar{Y} - \hat{\beta}_2\bar{X} \\
+	&= (0) - \hat{\beta}_2 (0) \\
+	&= 0
+	\end{align*}
+	and
+	\begin{align*}
+	\hat{\beta}_2 &= \frac{\sum_{i=1}^n (X_i - \bar{X})(Y_i - \bar{Y})}{\sum_{i=1}^n (X_i - \bar{X})^2} \\
+	&= \frac{\sum_{i=1}^n (X_i - [0])(Y_i - [0])}{\sum_{i=1}^n (X_i - [0])^2} \\
+	&= \frac{\sum_{i=1}^n X_i Y_i}{\sum_{i=1}^n X_i^2}.
+	\end{align*}
+
+	It follows that 
+	\begin{align*}
+	\hat{u}_i &= Y_i - \hat{Y}_i \\
+	&= Y_i - (\hat{\beta}_1 + \hat{\beta}_2 X_i) \\
+	&= Y_i - ([0]+ \hat{\beta}_2 X_i) \\
+	&= Y_i - \hat{\beta}_2 X_i.
+	\end{align*}
+	
+	The sample covariance of $X_i$ and $\hat{u}_i$ is given by 
+	$$ S_{(X_i, \hat{u}_i)} = \frac{1}{n - 1} \sum_{i=1}^n (X_i - \bar{X}) (\hat{u}_i - \bar{\hat{u}}). $$
+	
+	The problem states that $\bar{X} = 0$ and you proved that $\bar{\hat{u}}=0$, so 
+	$$ S_{(X_i, \hat{u}_i)} = \frac{1}{n - 1} \sum_{i=1}^n X_i \hat{u}_i. $$
+	
+	The denominator $n-1$ is nonzero, so we will restrict our attention to $\sum_{i=1}^n X_i \hat{u}_i$. Showing that this term is equal to zero completes the proof.
+	
+	Replace $\hat{u}_i$ with $Y_i - \hat{\beta}_2 X_i$ and simplify:
+	\begin{align*}
+	\sum_{i=1}^n X_i \hat{u}_i &= \sum_{i=1}^n X_i [Y_i - \hat{\beta}_2 X_i] \\
+	&= \sum_{i=1}^n X_i Y_i - \hat{\beta}_2 \sum_{i=1}^n X_i^2.
+	\end{align*}
+	
+	Replace $\hat{\beta}_2$ with the OLS slope formula:
+	\begin{align*}
+	\sum_{i=1}^n X_i \hat{u}_i &= \sum_{i=1}^n X_i Y_i - \hat{\beta}_2 \sum_{i=1}^n X_i^2 \\
+	&= \sum_{i=1}^n X_i Y_i - \frac{\sum_{i=1}^n X_i Y_i}{\sum_{i=1}^n X_i^2} \sum_{i=1}^n X_i^2 \\
+	&= \sum_{i=1}^n X_i Y_i - \sum_{i=1}^n X_i Y_i \\
+	&= 0.
+	\end{align*}
+	}
+
+\item Suppose that you run a regression of $Y_i$ on $X_i$ and obtain parameter estimates $\hat{\beta}_1$ and $\hat{\beta}_2$. Then, using the same data, you decide to run a regression of $\tilde{Y}_i$ on $X_i$, where $\tilde{Y}_i = 2Y_i$. Prove that both regressions have the same $R^2$. (3 points)\\
+
+
+{\color{pine_green} Using the transformed data, you estimate $\tilde{Y}_i = \tilde{\beta}_1 + \tilde{\beta}_2X_i + \tilde{u}_i$ to obtain the fitted model $\hat{\tilde{Y}}_i = \hat{\tilde{\beta}}_1 + \hat{\tilde{\beta}}_2X_i$. From here, we will find an expression for $\hat{\tilde{Y}}_i$ in terms of $\hat{Y_i}$. We will then plug this into the formula for $\tilde{R}^2$ to complete the proof.
+	
+	First, notice that
+	\begin{align*}
+	\bar{\tilde{Y}} &= \frac{1}{n} \sum_{i=1}^n \tilde{Y}_i = \frac{1}{n} \sum_{i=1}^n 2 Y_i \\ 
+	&=  2 \frac{1}{n} \sum_{i=1}^n Y_i \\
+	&= 2\bar{Y}.
+	\end{align*}
+	This will prove useful in the next step.
+	
+	Second, relate  $\hat{\tilde{\beta}}_2$ to $\hat{\beta_2}$:
+	
+	\begin{align*}
+	\hat{\tilde{\beta}}_2 &= \dfrac{\sum_{i=1}^n (\tilde{Y}_i - \bar{\tilde{Y}})(X_i - \bar{X})}{\sum_{i=1}^n (X_i - \bar{X})^2} = \dfrac{\sum_{i=1}^n (2Y_i - 2\bar{Y})(X_i - \bar{X})}{\sum_{i=1}^n (X_i - \bar{X})^2} \\
+	&= 2 \dfrac{\sum_{i=1}^n (Y_i - \bar{Y})(X_i - \bar{X})}{\sum_{i=1}^n (X_i - \bar{X})^2} \\
+	&= 2 \hat{\beta}_2.
+	\end{align*}
+	
+	Third, relate $\hat{\tilde{\beta}}_1$ to $\hat{\beta_1}$:
+	
+	\begin{align*}
+	\hat{\tilde{\beta}}_1 &= \bar{\tilde{Y}} - \hat{\tilde{\beta}}_2 \bar{X} = 2 \bar{Y} - 2 \hat{\beta}_2 \bar{X} \\
+	&= 2(\bar{Y} - \hat{\beta}_2 \bar{X}) \\
+	&= 2 \hat{\beta}_1.
+	\end{align*}
+	
+	Next, use the expressions for $\hat{\tilde{\beta}}_1$ and $\hat{\tilde{\beta}}_2$ to express $\hat{\tilde{Y}}_i$ in terms of $\hat{Y_i}$.
+	
+	\begin{align*}
+	\hat{\tilde{Y}}_i &= \hat{\tilde{\beta}}_1 + \hat{\tilde{\beta}}_2X_i = 2 \hat{\beta}_1 + 2 \hat{\beta}_2 X_i \\
+	&= 2( \hat{\beta}_1 + \hat{\beta}_2 X_i) \\
+	&= 2 \hat{Y_i}.
+	\end{align*}
+	
+	Finally, use the expression for $\hat{\tilde{Y}}_i$ in the definition of $\tilde{R}^2$:
+	
+	\begin{align*}
+	\tilde{R}^2 &= \dfrac{\sum_{i=1}^n (\hat{\tilde{Y}}_i - \bar{\tilde{Y}})^2}{\sum_{i=1}^n (\tilde{Y}_i - \bar{\tilde{Y}})^2} = \dfrac{\sum_{i=1}^n (2 \hat{Y_i} - 2 \bar{Y})^2}{\sum_{i=1}^n (2 Y_i  - 2 \bar{Y})^2} \\
+	&= \dfrac{\sum_{i=1}^n [2(\hat{Y_i} - \bar{Y})]^2}{\sum_{i=1}^n [2 (Y_i  - \bar{Y})]^2} = \dfrac{4 \sum_{i=1}^n (\hat{Y_i} - \bar{Y})^2}{4 \sum_{i=1}^n (Y_i  - \bar{Y})^2} \\
+	&= \dfrac{\sum_{i=1}^n (\hat{Y_i} - \bar{Y})^2}{\sum_{i=1}^n (Y_i  - \bar{Y})^2} \\
+	&= R^2.
+	\end{align*}
+}
+\end{enumerate}
+
+\newpage 
+
+\begin{center}
+\textbf{Computational Questions} \bigskip
+\end{center}
+
+\noindent For this portion of the problem set, you will use the \texttt{fertility.csv} excel file in the Problem Set 3 folder on Canvas. The file contains a random sample of data on the fertility and education of women interviewed in the Demographic and Health Survey in India. To complete this assignment, you will need to load the \texttt{tidyverse} and \texttt{stargazer} package. \\
+
+\noindent The Demographic and Health Survey interviews women and asks them information about their fertility and health behavior. The variables in the data set are described below. (2 points each)\\
+
+\begin{table}[htb]
+	\centering
+	\begin{tabular}{@{\extracolsep{1cm}} l l @{}}
+		\toprule
+		\textbf{Variable Name} & \textbf{Description}  \\ \toprule
+		\texttt{id} & Unique id of each woman interviewed \\
+		\texttt{educ} & Years of schooling completed by the woman (respondent) \\
+		\texttt{peduc} & Years of schooling completed by the partner \\
+		\texttt{kids} & Number of children \\
+		\texttt{agem} & Age of marriage for the woman \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\noindent Economic theory suggests that education can decrease fertility. One hypothesized mechanism is that education improves job prospects, which increases the opportunity cost of having children. Another hypothesized mechanism---particularly relevant in developing countries---is that education increases awareness of effective contraceptive methods. We will delve into the effect of parental education on fertility behavior in India. 
+
+
+\begin{enumerate}
+	
+\item Does marrying later in life reduce fertility, as measured by the number of children? 
+\begin{enumerate}
+	\item Write down a simple linear regression model that describes the effect of age at marriage on fertility. Use variable names that relate to the research question.
+	\item Using the \texttt{lm()} function, estimate the simple linear regression model that you specified above.
+	\item  Make a regression table using \texttt{stargazer}. Make sure you specify \texttt{type = "html"}. To reduce clutter, pass \texttt{keep.stat = c("rsq", "n")} as an argument to \texttt{stargazer()}.
+	\item Visualize your regression results by making a scatter plot with a fitted regression line. \textbf{Hint:} Use \texttt{stat\_smooth(method = "lm", se = FALSE)} in your \texttt{ggplot} code.
+	\item  Interpret the intercept estimate. Is this reasonable?
+	\item  Interpret the slope estimate.
+	\item Is the slope coefficient statistically significant? 
+	\item Does the slope estimate warrant causal interpretation? In other words, do you think that the slope describes the causal effect of education on fertility? Why or why not? If not, identify a potential source of selection bias or omitted-variable bias.
+\end{enumerate}
+
+\item Does education reduce fertility, as measured by the number of children? 
+\begin{enumerate}
+	\item Write down two simple linear regression models that describe the effect of parent's education on fertility. Use variable names that relate to the research question.
+	\item Run two separate simple linear regressions that allow you to estimate the effect of mother's education and father's education on fertility. Use one independent variable per regression. Summarize the results in a regression table.
+	\item Identify and interpret the $R^2$ from the regression of fertility on father's education.
+	\item Of the three independent variables you considered, which one is the best predictor of fertility? Justify your answer. 
+\end{enumerate}
+\end{enumerate}
+
+
+\end{onehalfspacing}
+\end{document}
