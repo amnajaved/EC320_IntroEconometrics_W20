@@ -1,0 +1,232 @@
+---
+title: "Midterm II Review"
+subtitle: "EC 320: Introduction to Econometrics"
+author: "Amna Javed"
+date: "Winter 2020"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts', 'my-css.css']
+    # self_contained: true
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse, middle
+
+```{r Setup, include = F}
+options(htmltools.dir.version = FALSE)
+library(pacman)
+# devtools::install_github("dill/emoGG")
+library(pacman)
+p_load(
+  broom, here, tidyverse,
+  emoGG, latex2exp, ggplot2, ggthemes, viridis, extrafont, gridExtra,
+  kableExtra,
+  data.table, dagitty, ggdag,
+  dplyr, gganimate,
+  lubridate,
+  magrittr, knitr, parallel
+)
+# Define colors
+red_pink <- "#e64173"
+met_slate <- "#23373b" # metropolis font color
+# Notes directory
+dir_slides <- "~/GitHub/Intro_Econometrics_F19/Lectures/06-Midterm_Review/"
+# Knitr options
+opts_chunk$set(
+  comment = "#>",
+  fig.align = "center",
+  fig.height = 7,
+  fig.width = 10.5,
+  #dpi = 300,
+  #cache = T,
+  warning = F,
+  message = F
+)  
+theme_simple <- theme_bw() + theme(
+  axis.line = element_line(color = met_slate),
+  panel.grid = element_blank(),
+  rect = element_blank(),
+  strip.text = element_blank(),
+  text = element_text(family = "Fira Sans", color = met_slate, size = 14),
+  axis.text.x = element_text(size = 12),
+  axis.text.y = element_text(size = 12),
+  axis.ticks = element_blank(),
+  plot.title = element_blank(),
+  legend.position = "none"
+)
+theme_gif <- theme_bw() + theme(
+  axis.line = element_line(color = met_slate),
+  panel.grid = element_blank(),
+  rect = element_blank(),
+  strip.text = element_blank(),
+  text = element_text(family = "Fira Sans", color = met_slate, size = 14),
+  axis.text.x = element_text(size = 12),
+  axis.text.y = element_text(size = 12),
+  axis.ticks = element_blank()
+)
+```
+
+# Midterm Topics
+
+.green[Anything from the lectures, labs, or problem sets] .hi-green[is fair game!]
+
+1. Simple Linear Regression: Estimation I & II
+
+2. Classical Assumptions
+
+3. Simple Linear Regression: Inference
+
+4. Multiple Linear Regression: Estimation
+
+5. Multiple Linear Regression: Inference
+
+6. Interpret .mono[R] output
+
+7. Anything before Midterm I
+
+---
+# Midterm Topics
+
+## 1. Simple Linear Regression: Estimation
+
+OLS mechanics
+
+- How does OLS pick parameter estimates?
+- What properties are a direct consequence of OLS?
+- Residuals *v.s.* errors
+
+Coefficient interpretation (literal)
+
+---
+# Midterm Topics
+
+## 1. Simple Linear Regression: Estimation (cont.)
+
+Goodness of fit
+
+- $R^2$ interpretation (literal)
+- Understand $R^2$ derivation
+- Use and misuse of $R^2$
+
+OLS by hand
+
+- Estimate coefficients and calculate $R^2$.
+- Don't have to calculate standard errors by hand.
+
+---
+# Midterm Topics
+
+## 2. Classical Assumptions
+
+Six assumptions
+
+1. Linearity
+2. Sample variation/no perfect collinearity
+3. Random sampling
+4. Exogeneity
+5. Homoskedasticity
+6. Normality
+
+What do they buy?
+
+When are they satisfied? When are they violated? 
+
+---
+# Midterm Topics
+
+## 2. Classical Assumptions (cont.)
+
+**So what?**
+
+- Coefficient interpretation (substantive)
+- Hypothesis test validity.
+
+---
+# Midterm Topics
+
+## 3. Simple Linear Regression: Inference
+
+Making inferences about population parameters
+
+- Population *v.s.* sample
+- What do we mean by "statistical significance?"
+
+Hypothesis testing (*e.g.,* *t* tests)
+
+- Null hypotheses *v.s.* alternative hypotheses
+- Left-tailed, right-tailed, and two-tailed
+- Type I *v.s.* Type II error
+
+Confidence intervals
+
+---
+# Midterm Topics
+
+## 4. Multiple Linear Regression: Estimation
+
+OLS mechanics and properties
+
+Goodness of fit
+
+- $R^2$ interpretation (literal)
+- Know the behavior of $R^2$ as the number of explanatory variables increases.
+
+Make predictions for certain values of the explanatory values (*e.g.,* hedonic modeling)
+
+---
+# Midterm Topics
+
+## 4. Multiple Linear Regression: Estimation (cont.)
+
+Coefficient interpretation (literal and substantive)
+
+Omitted-variable bias
+
+- Know when omitting a variable causes bias.
+- Sign the bias.
+- Back out correlations between explanatory variables.
+
+---
+# Midterm Topics
+
+## 5. Multiple Linear Regression: Inference
+
+Confidence intervals and *t* tests 
+
+- Other than degrees of freedom, same as before.
+
+Multicollinearity
+
+- Standard errors depend on the overlapping variation between the explanatory variable.
+- More overlap $\implies$ bigger standard errors $\implies$ less likely to reject null hypothesis.
+
+Irrelevant variables
+
+--
+
+**No *F* tests on the midterm!** Stay tuned for the final. 
+
+
+---
+# Midterm Structure
+
+### Multiple Choice Questions
+
+### Short Analytical Questions
+
+### More involved Analytical Questions
+
+---
+# Midterm Protocol
+
+## Materials
+
+- Writing utensil
+- Basic or scientific calculator 
+- .hi[Nothing else]
+
+## Procedure
+
+- 80 minutes from *"you may begin"* to *"pencils down"*

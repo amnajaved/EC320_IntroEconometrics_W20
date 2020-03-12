@@ -1,0 +1,115 @@
+---
+title: "Problem Set 4: Key to Computational Problems"
+author: | 
+        | Amna Javed, Cory Briar, Sichao Jiang, Youssef Ait Benasser
+        | EC 320: Introduction to Econometrics
+        | University of Oregon
+date: "Winter 2020"
+output: 
+  html_document:
+    theme: flatly  
+    highlight: tango
+    includes:
+      after_body: 
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = T, warning = F, message = F, cache = F)
+```
+
+## Preliminaries
+
+```{r}
+library(pacman)
+p_load(stargazer, broom, tidyverse)
+
+data <- read_csv("apple.csv")
+```
+
+## Exercise 1
+
+*Run a regression of* `reglbs` *on* `regprc`*. Interpret the slope coefficient. Is the sign of the slope consistent with what you know about demand curves?*
+
+```{r}
+reg1 <- lm(reglbs ~ regprc, data = data)
+tidy(reg1)
+```
+
+The slope estimate is -0.688, which tells us that the quantity of regular apples falls by 0.688 for each dollar-increase in the price of regular apples. In introductory microeconomics, you learned that demand curves are downward sloping. The negative slope estimate is consistent with the notion of downward-sloping demand.
+
+## Exercise 2
+
+*Run a regression of* `ecolbs` *on* `ecoprc`*. Interpret the intercept coefficient.*
+
+```{r}
+reg2 <- lm(ecolbs ~ ecoprc, data = data)
+tidy(reg2)
+```
+
+The intercept estimate is 2.39, which tells us that consumers demand 2.39 pounds of eco-labeled apples when the price of eco-labeled apples is zero.
+
+## Exercise 3
+
+*Run a regression of* `reglbs` *on* `regprc` *and* `ecoprc`*. How does the estimated coefficient on* `regprc` *change? What does this tell you about the correlation between* `regprc` *and* `ecoprc`*? Justify your answer and then use* `R` *to verify.*
+
+```{r}
+reg3 <- lm(reglbs ~ regprc + ecoprc, data = data)
+tidy(reg3)
+```
+
+The estimated slope falls from -0.688 to -1.57, which suggests that the omission of `ecoprc` in the first regression caused positive omitted-variable bias (you can show this with the first omitted-variable bias formula). The slope estimate on `ecoprc` is positive, so it must be the case that the correlation between `regprc` and `ecoprc` is positive (you can show this using the second omitted-variable bias formula). 
+
+To verify the correlation, you can run a regression of `regprc` on `ecoprc` and check the sign of the slope estimate or simply calculate the correlation coefficient.
+
+```{r}
+# check the correlation (approach 1)
+tidy(lm(regprc ~ ecoprc, data = data))
+
+# check the correlation (approach 2)
+cor(data$regprc, data$ecoprc)
+```
+
+As predicted by the omitted-variable bias formula, the correlation is positive.
+
+## Exercise 4
+
+*Run a regression of* `ecolbs` *on* `regprc` *and* `ecoprc`*. Identify and interpret* $R^2$*.*
+
+```{r}
+reg4 <- lm(ecolbs ~ regprc + ecoprc, data = data)
+glance(reg4)
+```
+
+$R^2$ is 0.0364, which tells us that the various prices of apples explain 3.6 percent of the variation in the quantity demanded of regular apples.
+
+## Exercise 5
+
+*Summarize your regression results in a table. Which two of the four regressions have the highest* $R^2$*? Why?*
+
+```{r, results='asis'}
+stargazer(reg1, reg2, reg3, reg4, type = "html", keep.stat = c("rsq", "n"),
+          notes = "<em>&#42;p&lt;0.1;&#42;&#42;p&lt;0.05;&#42;&#42;&#42;p&lt;0.01</em>",
+          notes.append = FALSE)
+```
+
+<br>
+
+**Note 1:** To ensure that R Markdown renders the table, you must specify `results='asis'` as a code chunk option.
+
+**Note 2:** The default `stargazer` table includes stars (`*`, `**`, and `***`) in the table notes, but R Markdown mistakes these to mean *"italicize"* or *"bold"*. I include raw HTML in the `notes` argument to fix this bug. 
+
+The regressions in columns 2 and 4 have the highest $R^2$. In this particular example, it appears that consumers are more price-sensitive to eco-labeled apples than they are to the prices of regular apples. In other words, prices explain more of the variation in `ecolbs` than `reglbs`, which likely explains why regressions 2 and 4 have the highest $R^2$. Between those two regressions, the regression in column 4 has a higher $R^2$ because there is an additional variable.
+
+## Exercise 6
+
+*Construct a 99 percent confidence interval for the* `ecoprc` *coefficient from the regression described in exercise 4.*
+
+```{r}
+tidy(reg4, conf.int = T, conf.level = 0.99)
+```
+
+The 99 percent confidence interval for the `ecoprc` coefficient is $-4.45 < \beta_\text{ecoprc} < -1.41$.
